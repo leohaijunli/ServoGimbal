@@ -1,0 +1,25 @@
+{
+  "offline": true,
+  "three_version": "0.128.0",
+  "embedded_GLB_sha256": "d663e66d31b55327f7c2faeebc0bde3f60ad19803b5d72e3a6641337e46ae5e3",
+  "html_sha256": "291d488839c7273356ba664de28b9e703731741164342246c1c7ecf203e690a7",
+  "sources": {
+    "GLTFLoader.js": "5c15967ba830918a9caea6338712c994c354bccd4edc4569bde411c3ec06a3e6",
+    "OrbitControls.js": "02bb4ade710f3e607329e37a21f098bc3ac70eb6e33daf8a65e79f4db785e7b2",
+    "three.min.js": "9274bbcec8d96168626c732b5d31c775aa8cfb7eaa0599bec0c175908a2c1ce2"
+  },
+  "browser_validation": {
+    "status": "functional_pass",
+    "embedded_GLB_loaded": true,
+    "console_errors": 0,
+    "base_size_m": [0.1700000081, 0.1300000062, 0.0460000022],
+    "camera_size_m_XYZ": [0.0663000062, 0.0284000024, 0.0486000008],
+    "printed_parts": 16,
+    "Pan_Tilt_test_deg": [45, 30],
+    "stationary_base_and_Pan_case": true,
+    "cradle_moves_with_axes": true,
+    "explosion_round_trip_max_error_m": 0,
+    "browser_screenshot": "Not captured: desktop tab was not visible; native Blender render images were inspected",
+    "coverage": "Same embedded HTML tested over local HTTP, no external GLB or library fetch needed. Not a mechanical load/precision test."
+  }
+}

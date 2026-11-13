@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>MKS HBL388 双轴云台 · 装配查看器</title>
+<style>
+  :root { color-scheme: dark; }
+  html, body { margin:0; height:100%; overflow:hidden; background:#161a1f;
+    font-family:"Segoe UI","Microsoft YaHei",sans-serif; color:#e6eaef; }
+  #app { position:fixed; inset:0; left:310px; }
+  #panel { position:fixed; top:14px; left:14px; width:266px; padding:14px 16px;
+    background:rgba(22,27,33,.9); border:1px solid #2c343d; border-radius:10px;
+    backdrop-filter:blur(6px); font-size:12.5px; line-height:1.5; }
+  #panel h1 { margin:0 0 2px; font-size:14px; letter-spacing:.3px; }
+  #panel .sub { color:#8d99a6; font-size:11px; margin-bottom:12px; }
+  .row { margin:9px 0; }
+  .row label { display:flex; justify-content:space-between; color:#b9c4cf; }
+  .row label b { color:#f0b429; font-weight:600; font-variant-numeric:tabular-nums; }
+  input[type=range] { width:100%; margin:4px 0 0; accent-color:#f0b429; }
+  .chk { display:flex; align-items:center; gap:7px; margin:5px 0; color:#b9c4cf; cursor:pointer; }
+  .chk input { accent-color:#f0b429; }
+  hr { border:0; border-top:1px solid #2c343d; margin:12px 0 10px; }
+  #legend { position:fixed; bottom:14px; right:14px; padding:10px 13px; font-size:11.5px;
+    background:rgba(22,27,33,.86); border:1px solid #2c343d; border-radius:8px; color:#a9b5c1; }
+  #legend i { display:inline-block; width:9px; height:9px; border-radius:2px; margin-right:6px; }
+  #legend div { margin:3px 0; }
+  #hint { position:fixed; bottom:14px; left:14px; font-size:11px; color:#6f7c8a; }
+  #err { position:fixed; inset:0; display:none; place-items:center; text-align:center;
+    padding:40px; font-size:13px; color:#f2b8b5; }
+  button { background:#293440; border:1px solid #455769; border-radius:5px;
+    color:#e6eaef; padding:5px 9px; cursor:pointer; margin-top:6px; }
+  #selection { color:#f0b429; min-height:18px; margin-top:8px; }
+  #status { color:#97a7b8; font-size:11px; margin-top:8px; }
+  @media(max-width:700px) {
+    #app { left:0; top:330px; }
+    #panel { width:calc(100% - 62px); padding:8px 16px; }
+    #legend { display:none; }
+  }
+</style>
+</head>
+<body>
+<div id="app"></div>
+
+<div id="panel">
+  <h1>MKS HBL388 双轴云台</h1>
+  <div class="sub">16 件打印结构 · GoPro HERO8 笼架</div>
+
+  <div class="row">
+    <label>Pan 旋转 <b id="panV">0°</b></label>
+    <input id="pan" type="range" min="-90" max="90" step="1" value="0">
+  </div>
+  <div class="row">
+    <label>Tilt 旋转 <b id="tiltV">0°</b></label>
+    <input id="tilt" type="range" min="-90" max="90" step="1" value="0">
+  </div>
+  <div class="row">
+    <label>爆炸视图 <b id="expV">0%</b></label>
+    <input id="exp" type="range" min="0" max="100" step="1" value="0">
+  </div>
+
+  <hr>
+  <label class="chk"><input id="spin" type="checkbox"> 自动环绕观察</label>
+  <label class="chk"><input id="cam" type="checkbox" checked> 显示相机包络</label>
+  <label class="chk"><input id="hw" type="checkbox" checked> 显示紧固件</label>
+  <label class="chk"><input id="internal" type="checkbox"> 隐藏底座/轴承座外壳</label>
+  <button id="reset">复位</button> <button id="fit">居中显示</button>
+  <div id="selection">点击零件查看编号</div>
+  <div id="status">正在加载模型…</div>
+</div>
+
+<div id="legend">
+  <div><i style="background:#2a4054"></i>底座结构件</div>
+  <div><i style="background:#f2610f"></i>25T 花键轴套</div>
+  <div><i style="background:#75602a"></i>夹紧套</div>
+  <div><i style="background:#8a0c0e"></i>真实舵机模型</div>
+</div>
+<div id="hint">CAD 原型 · 未实测承载；先打印 fit_tests · 左键旋转 / 滚轮缩放 / 右键平移</div>
+<div id="err"></div>
+
+<script src="viewer_vendor/three.min.js"></script>
+<script src="viewer_vendor/OrbitControls.js"></script>
+<script src="viewer_vendor/GLTFLoader.js"></script>
+<script id="model-data">window.__MKS_MODEL_BASE64__ = null;</script>
+<script>
+const PITCH_Z = 140;
+const MM = 0.001;
+const app = document.getElementById('app');
+const errBox = document.getElementById('err');
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.setSize(app.clientWidth, app.clientHeight);
+renderer.outputEncoding = THREE.sRGBEncoding;
+app.appendChild(renderer.domElement);
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x161a1f);
+const camera = new THREE.PerspectiveCamera(38, app.clientWidth / app.clientHeight, 0.01, 50);
+camera.up.set(0, 0, 1);
+camera.position.set(0.30, -0.36, 0.26);
+const controls = new THREE.OrbitControls(camera, renderer.domElement);
+controls.target.set(0, 0, 0.085);
+controls.enableDamping = true;
+controls.dampingFactor = 0.07;
+controls.maxDistance = 2.5;
+controls.minDistance = 0.10;
+const sky = new THREE.HemisphereLight(0xdfe8f2, 0x1b2028, 1.1);
+sky.position.set(0, 0, 1); scene.add(sky);
+const key = new THREE.DirectionalLight(0xffffff, 2.2);
+key.position.set(0.35, -0.5, 0.6); scene.add(key);
+const fill = new THREE.DirectionalLight(0x9fc4e8, 0.8);
+fill.position.set(-0.5, 0.35, 0.25); scene.add(fill);
+const rim = new THREE.DirectionalLight(0xffd9a0, 0.6);
+rim.position.set(-0.2, 0.55, -0.4); scene.add(rim);
+
+const grid = new THREE.GridHelper(0.6, 24, 0x3a4552, 0x262d35);
+grid.rotation.x = Math.PI / 2; grid.position.z = -0.0005;
+scene.add(grid);
+const fixedPivot = new THREE.Group();
+const panPivot = new THREE.Group();
+const tiltPivot = new THREE.Group();
+tiltPivot.position.set(0, 0, PITCH_Z * MM);
+panPivot.add(tiltPivot);
+scene.add(fixedPivot, panPivot);
+const items = [];
+const partNodes = new Map();
+const cameraNodes = [], hardwareNodes = [];
+const panEl = document.getElementById('pan');
+const tiltEl = document.getElementById('tilt');
+const expEl = document.getElementById('exp');
+const status = document.getElementById('status');
+const api = window.mksViewer = { ready:false, items, partNodes };
+
+function fail(e) {
+  errBox.style.display = 'grid';
+  errBox.textContent = '模型加载失败：' + (e && e.message ? e.message : String(e));
+  status.textContent = '加载失败';
+}
+
+function loadModel(gltf) {
+  // glTF is Y-up. Convert ONCE to the CAD Z-up frame before attaching nodes.
+  // attach() preserves world geometry; keep its base pose for the explosion.
+  const cadRoot = new THREE.Group();
+  cadRoot.rotation.x = Math.PI / 2;
+  cadRoot.add(gltf.scene); scene.add(cadRoot);
+  scene.updateMatrixWorld(true);
+  const tagged = [];
+  gltf.scene.traverse(o => { if (o.userData && o.userData.assembly_group) tagged.push(o); });
+  tagged.forEach(o => {
+    const g = o.userData && o.userData.assembly_group;
+    const ex = o.userData.explode_mm || [0, 0, 0];
+    const parent = g === 'tilt' ? tiltPivot : g === 'pan' ? panPivot : fixedPivot;
+    parent.attach(o);
+    items.push({ obj:o, group:g, base:o.position.clone(),
+      explode:new THREE.Vector3(ex[0], ex[1], ex[2]).multiplyScalar(MM) });
+    partNodes.set(o.userData.part_id, o);
+    if (o.userData.category === 'payload') cameraNodes.push(o);
+    if (o.userData.category === 'hardware') hardwareNodes.push(o);
+  });
+  scene.updateMatrixWorld(true);
+  const b = new THREE.Box3().setFromObject(partNodes.get('01_Base'));
+  const size = b.getSize(new THREE.Vector3());
+  if (Math.abs(size.x-0.170)>0.0002 || Math.abs(size.y-0.130)>0.0002) {
+    throw new Error('GLB 单位/坐标与 170×130 mm 底板不符；禁止自动缩放掩盖问题');
+  }
+  api.ready = true;
+  status.textContent = '毫米设计 / 米制GLB · ±90°每5°数字扫掠 · 未实物验证';
+  fitView(false);
+}
+
+function fitView(preserve=true) {
+  if (!items.length) return;
+  const box = new THREE.Box3();
+  scene.updateMatrixWorld(true);
+  items.forEach(it => { if (it.obj.visible) box.expandByObject(it.obj); });
+  const size = box.getSize(new THREE.Vector3());
+  const centre = box.getCenter(new THREE.Vector3());
+  const r = Math.max(size.x, size.y, size.z);
+  const dir = preserve ? camera.position.clone().sub(controls.target).normalize()
+    : new THREE.Vector3(1.25, -1.55, 0.95).normalize();
+  controls.target.copy(centre);
+  camera.position.copy(centre).addScaledVector(dir, r*2.8);
+  controls.update();
+}
+
+function pose() {
+  panPivot.rotation.z = THREE.MathUtils.degToRad(+panEl.value);
+  tiltPivot.rotation.x = THREE.MathUtils.degToRad(+tiltEl.value);
+  document.getElementById('panV').textContent = panEl.value+'°';
+  document.getElementById('tiltV').textContent = tiltEl.value+'°';
+  scene.updateMatrixWorld(true);
+}
+function explosion() {
+  const f = +expEl.value / 100;
+  if (f) { panEl.value=0; tiltEl.value=0; }
+  panEl.disabled = tiltEl.disabled = f>0;
+  pose();
+  items.forEach(it => it.obj.position.copy(it.base).addScaledVector(it.explode, f));
+  document.getElementById('expV').textContent = Math.round(f*100)+'%';
+  fitView();
+}
+panEl.addEventListener('input', pose);
+tiltEl.addEventListener('input', pose);
+expEl.addEventListener('input', explosion);
+document.getElementById('cam').addEventListener('change', (e) => {
+  cameraNodes.forEach(o => { o.visible = e.target.checked; });
+});
+document.getElementById('hw').addEventListener('change', (e) => {
+  hardwareNodes.forEach(o => { o.visible = e.target.checked; });
+});
+document.getElementById('internal').addEventListener('change', (e) => {
+  ['01_Base','02_Pan_Bearing_Carrier'].forEach(id => {
+    const o=partNodes.get(id); if(o) o.visible=!e.target.checked;
+  });
+});
+document.getElementById('spin').addEventListener('change', (e) => { controls.autoRotate=e.target.checked; });
+document.getElementById('fit').addEventListener('click', () => fitView(false));
+document.getElementById('reset').addEventListener('click', () => {
+  panEl.value=0; tiltEl.value=0; expEl.value=0; explosion();
+});
+api.setPose = (pan, tilt) => { expEl.value=0; explosion(); panEl.value=pan; tiltEl.value=tilt; pose(); };
+api.explode = value => { expEl.value=value; explosion(); };
+api.bounds = id => {
+  scene.updateMatrixWorld(true);
+  const b=new THREE.Box3().setFromObject(partNodes.get(id));
+  return { min:b.min.toArray(), max:b.max.toArray(), size:b.getSize(new THREE.Vector3()).toArray() };
+};
+const ray = new THREE.Raycaster();
+renderer.domElement.addEventListener('click', e => {
+  const r=renderer.domElement.getBoundingClientRect();
+  ray.setFromCamera(new THREE.Vector2((e.clientX-r.left)/r.width*2-1, -(e.clientY-r.top)/r.height*2+1), camera);
+  const hits=ray.intersectObjects(items.map(it=>it.obj),true).filter(h=>h.object.visible);
+  if(!hits.length) return;
+  let o=hits[0].object;
+  while(o && !o.userData.part_id) o=o.parent;
+  if(o) document.getElementById('selection').textContent=o.userData.label||o.userData.part_id;
+});
+
+const loader = new THREE.GLTFLoader();
+const onLoad = gltf => { try { loadModel(gltf); } catch(e) { fail(e); } };
+if(window.__MKS_MODEL_BASE64__) {
+  const binary=atob(window.__MKS_MODEL_BASE64__);
+  const bytes=new Uint8Array(binary.length);
+  for(let i=0;i<binary.length;i++) bytes[i]=binary.charCodeAt(i);
+  loader.parse(bytes.buffer, '', onLoad, fail);
+} else {
+  loader.load('mks_gimbal_assembly.glb', onLoad, undefined, fail);
+}
+function tick() {
+  requestAnimationFrame(tick);
+  controls.update();
+  renderer.render(scene, camera);
+}
+tick();
+addEventListener('resize', () => {
+  camera.aspect = app.clientWidth / app.clientHeight;
+  camera.updateProjectionMatrix();
+  renderer.setSize(app.clientWidth, app.clientHeight);
+});
+</script>
+</body>
+</html>

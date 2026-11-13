@@ -1,0 +1,15 @@
+{
+  "blender_version": "4.5.16 LTS",
+  "geometry_units": "mm",
+  "GLB_coordinate_convention": "glTF Y-up, metre world dimensions via 0.001 root",
+  "reference_sha256": "5cf0fc2613ed429b833812b36cc5394e5df93e6f865ef1aca91f640726b70aea",
+  "raw_reference_triangles": 63106,
+  "raw_reference_vertices": 31577,
+  "raw_surface_triangles_exact_match": true,
+  "display_stator_triangles": 55648,
+  "display_rotor_triangles": 7458,
+  "reference_vertices_changed": false,
+  "printed_parts": 16,
+  "hardware_note": "Non-printable envelopes; threads, rolling elements and knurls simplified",
+  "assembly_checks_sha256": "848d785873b3cbb081ee8114139ebd92287fd816daf4c29ae0ec1603e2d5d0a7"
+}

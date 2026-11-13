@@ -1,0 +1,2 @@
+# Preserve delivered bytes and reference hashes; do not convert line endings.
+* -text

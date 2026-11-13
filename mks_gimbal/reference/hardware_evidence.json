@@ -1,0 +1,50 @@
+{
+  "units": "mm",
+  "review_date": "2026-11-13",
+  "servo_mount_note": "HBL388 manufacturer drawing identifies M3 at the shaft centre and R2 open mounting-ear slots; use M3 through-bolts/captive DIN934 nuts, not assumed tapped ear holes or housing screws.",
+  "servo_drawing_sha256": "9c94f5f8621c4f68b91d339f8dfa02001de110dc7aa7f5667403ac0a79b71c1e",
+  "inserts": {
+    "product": "ruthex RX-M2.5x5.7", "SKU": "GE-M25x57-001",
+    "thread": "M2.5", "length": 5.7, "knurl_max_OD": 4.6,
+    "pilot_trials": [3.8, 4.0, 4.2], "prototype_pilot": 4.0,
+    "physical_installation": "not tested",
+    "source": "https://www.ruthex.de/en/products/ruthex-gewindeeinsatz-m2-5-70-stuck-rx-m2-5x5-7-messing-gewindebuchsen",
+    "manufacturer_CAD_url": "https://cdn.shopify.com/s/files/1/0567/7019/9760/files/RX-M2.5x5.7.step?v=1621264615"
+  },
+  "bearings": [
+    {
+      "product": "SKF 61804-2RS1", "bore": 20, "OD": 32, "width": 7,
+      "inner_shoulder_d1_approx": 23.85, "outer_recess_D2_approx": 29.4,
+      "shaft_abutment_da_min": 22, "shaft_abutment_da_max": 23.6,
+      "housing_abutment_Da_max": 30,
+      "design_inner_contact_OD": 23.2, "design_outer_retainer_ID": 30,
+      "source": "https://www.skf.com/products/rolling-bearings/ball-bearings/deep-groove-ball-bearings/productid-61804-2RS1",
+      "source_method": "Manufacturer indexed product dimensions and matching SKF catalogue sheet excerpt; no physical measurement",
+      "catalogue_copy": "https://www.industrial-gp.ro/Admin/Public/Download.aspx?File=Files%2FDigitalAssets%2FPDF%2FFisaTehnica%2FSKF+61804-2RS1+Fisa+Tehnica.pdf"
+    },
+    {
+      "product": "SKF 61800 (open)", "bore": 10, "OD": 19, "width": 5,
+      "inner_shoulder_d1_approx": 12.74, "outer_shoulder_D1_approx": 16.26,
+      "shaft_abutment_da_min": 12, "housing_abutment_Da_max": 17,
+      "design_inner_contact_OD": 12, "design_outer_retainer_ID": 17,
+      "source": "https://www.industrial-gp.ro/Admin/Public/Download.aspx?File=Files%2FDigitalAssets%2FPDF%2FFisaTehnica%2FSKF+61800+Fisa+Tehnica.pdf",
+      "local_document": "SKF_61800_dimensions.pdf",
+      "document_sha256": "018e809a2469f3097d4e863375596153c3695caf749ffe420cfc963d1db732f3",
+      "document_date": "2020-12-18",
+      "source_method": "SKF generated product sheet distributed by Industrial-GP; text decoded from embedded Unicode CMap and cached in SKF_61800_dimensions.txt"
+    }
+  ],
+  "fasteners": {
+    "DIN912_M2.5": {"pitch": 0.45, "plain_head_D": 4.5, "head_H": 2.5, "hex_key_AF": 2.0},
+    "DIN912_M3": {"pitch": 0.5, "plain_head_D": 5.5, "head_H": 3.0, "hex_key_AF": 2.5},
+    "DIN912_source": "https://fullerfasteners.com/tech/din-912-specifications-hex-socket-head-cap-screws/",
+    "ISO7380_1_M3": {"pitch": 0.5, "head_D": 5.7, "head_H": 1.65, "hex_key_AF": 2.0},
+    "ISO7380_source": "https://www.woodstockindustrial.com/specs/iso-7380-1",
+    "DIN934_M3": {"across_flats": 5.5, "thickness": 2.4},
+    "DIN934_source": "https://accu-components.com/us/hexagon-nuts/766485-NUT930M3C",
+    "DIN125A_M2.5": {"ID": 2.7, "OD": 6.0, "thickness": 0.5},
+    "DIN125A_M3": {"ID": 3.2, "OD": 7.0, "thickness": 0.5},
+    "washers_source": "https://www.woodstockindustrial.com/specs/din-125a"
+  },
+  "limitations": "Sourced catalogue envelopes and CAD verification only. No real fastener, tool, bearing, insert or printed-part acceptance test. Approximate shoulder dimensions must not be treated as manufacturing tolerances."
+}

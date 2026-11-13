@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*.blend1
+*.blend2
+*.log
+.venv/
+Thumbs.db
+.DS_Store
+mks_gimbal/output/

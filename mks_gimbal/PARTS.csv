@@ -1,0 +1,17 @@
+﻿文件,数量,打印X_mm,打印Y_mm,打印Z_mm,CAD体积_mm3,M2.5铜套数量,运动组
+01_Base,1,170.0,130.0,46.0,359114.39,8,fixed
+02_Pan_Bearing_Carrier,1,90.0,84.0,33.0,192143.97,8,fixed
+03_Pan_Lower_Cap,1,66.0,66.0,4.0,8657.51,0,fixed
+04_Pan_Upper_Cap,1,66.0,66.0,3.0,7912.67,0,fixed
+05_Pan_25T_Hub,1,68.0,68.0,42.35,32073.28,4,pan
+06_Pan_Clamp_Collar,1,36.0,28.0,10.1,3232.37,1,pan
+07_Pan_Inner_Spacer,1,23.2,23.2,9.0,919.67,0,pan
+08_U_Frame,1,140.0,66.0,92.8,83970.03,4,pan
+09_HERO8_Cradle,1,53.6,44.3,93.9,33764.17,7,tilt
+10_HERO8_Top_Clamp,1,56.0,29.3,4.0,5368.78,0,tilt
+11_Tilt_25T_Hub,1,38.0,38.0,12.2,6443.44,0,tilt
+12_Tilt_Clamp_Collar,1,36.0,28.0,8.0,3013.74,1,tilt
+13_Left_Bearing_Cap,1,40.0,40.0,2.0,2697.14,0,pan
+14_Left_Inner_Spacer,1,13.0,13.0,3.9,345.76,0,tilt
+15_Removable_Left_Support,1,69.9,56.0,24.0,26604.13,4,pan
+16_Pan_Front_Mount_Bridge,1,31.6,58.0,8.0,13417.24,0,fixed
