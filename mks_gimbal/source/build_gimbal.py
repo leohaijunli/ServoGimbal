@@ -42,6 +42,67 @@ PARTS, ROTATIONS, META, INSERTS, SCREWS, HARDWARE, NUTS = {}, {}, {}, [], [], []
 UPPER_CAP_BOLTS = [(27, 0), (-27, 0), (0, 27), (0, -27)]
 BASE_BOLTS = [(x, y) for x in (-37, 37) for y in (-35, 35)]
 BRIDGE_BOLTS = [(x, y) for x in (-38, -28) for y in (-22, 22)]
+LIGHTWEIGHT_INFO = {}
+
+
+def base_protected_regions():
+    """Retained load/interface regions, not an FEA or stall-torque rating."""
+    protected = box(104, 88, 10, z=-1)  # full plate beneath the servo holder
+    protected = protected + roundplate(100, 84, 6.4, 8, z=39.6)
+    for x, y in BASE_BOLTS:
+        protected = protected + cyl(8, 40, x, y, 6.8)
+    for x, y in BRIDGE_BOLTS:
+        protected = protected + cyl(7, 21, x, y, 6.8)
+    for y in (-22, 22):
+        protected = protected + box(32.4, 14.8, 4, x=-27.3, y=y, z=22.3)
+    # Join neighbouring retained posts without trapping tiny blind cavities.
+    for y in (-29, 29):
+        protected = protected + box(6, 10, 19, x=-33, y=y, z=7.8)
+    # Preserve right-ear bearing surfaces and both captive-nut access rails.
+    protected = protected + box(14, 26, 30, x=36.75, z=6.8)
+    protected = protected + box(9.6, 90, 5.2, x=36.75, z=27.8)
+    # Keep 3.2mm guide walls immediately outside the unchanged case pocket.
+    for y in (-13.2, 13.2):
+        protected = protected + box(44, 3.2, 30, x=10.5, y=y, z=6.8)
+    for x in (-72, 72):
+        for y in (-52, 52):
+            protected = protected + cyl(9, 10, x, y, -1)
+    # Full-height ribs divide the through-windows in the base-plate wings.
+    for x in (-66, 66):
+        for y in (-28, 0, 28):
+            protected = protected + box(28, 3.2, 10, x=x, y=y, z=-1)
+    for y in (-54, 54):
+        for x in (-36, 0, 36):
+            protected = protected + box(3.2, 18, 10, x=x, y=y, z=-1)
+    return protected
+
+
+def carrier_structural_regions():
+    # Keep the original 6mm seating plate, central ring, four screw towers and
+    # four 5mm diagonal webs. Lower cap recess wall remains at least 3.4mm.
+    keep = roundplate(90, 84, 6, 5, z=46)
+    keep = keep + cyl(36.5, 33, z=46)
+    for x, y in BASE_BOLTS:
+        keep = keep + cyl(7, 33, x, y, 46)
+        angle = math.degrees(math.atan2(y, x))
+        keep = keep + box(26, 5, 27.5, x=41.5, z=51.5).rotate([0, 0, angle])
+    return keep
+
+
+def record_lightweight(name, before, after, protected):
+    removed_protected = max(0.0, ((before ^ protected)-after).volume())
+    addition = max(0.0, (after-before).volume())
+    assert removed_protected < 0.05, (name, "protected material removed", removed_protected)
+    assert addition < 0.05, (name, "unexpected added material", addition)
+    assert after.volume() < before.volume()
+    LIGHTWEIGHT_INFO[name] = {
+        "before_volume_mm3": before.volume(), "after_volume_mm3": after.volume(),
+        "removed_volume_mm3": before.volume()-after.volume(),
+        "reduction_percent": (1-after.volume()/before.volume())*100,
+        "protected_region_loss_mm3": removed_protected,
+        "added_material_mm3": addition,
+        "scope": "Subtractive relief outside retained load/interface regions; no strength certification"}
+    return after
 
 
 def add(name, solid, rotate=(0, 0, 0), group="fixed", explode=(0, 0, 0)):
@@ -143,6 +204,21 @@ def build_base():
         base = base - insert(name, (x, y, 46), "-Z")
     for x, y in BRIDGE_BOLTS:
         base = base - insert(name, (x, y, 26.3), "-Z")
+    before = base
+    protected = base_protected_regions()
+    cutters = None
+    # Side windows have a 45-degree roof; 4mm vertical webs remain between them.
+    # The first edge must not be exactly tangent to the retained post cylinders
+    # at X=-45, which would merge into four-face edges in an STL.
+    for x in (-38.4, -20, -2, 16, 34):
+        window = gusset_xz([(x-7, 11), (x+7, 11), (x+7, 26),
+                            (x, 33), (x-7, 26)], -45, 90)
+        cutters = window if cutters is None else cutters+window
+    for x in (-66, 66):
+        cutters = cutters + roundplate(24, 88, 10, 3, x=x, z=-1)
+    for y in (-54, 54):
+        cutters = cutters + roundplate(108, 14, 10, 3, y=y, z=-1)
+    base = record_lightweight(name, before, before-(cutters-protected), protected)
     add(name, base)
 
     name = "16_Pan_Front_Mount_Bridge"
@@ -168,7 +244,7 @@ def build_pan_support():
     # Four connected outer columns support the bearing block above the lower
     # retainer. The retainer must fit through the bottom opening, not into solid.
     carrier = carrier + roundplate(90, 84, 27.5, 5, z=51.5)
-    carrier = carrier - cyl(13.0, 35, z=45.5)  # clears OD24.8 inner-race spacer
+    carrier = carrier - cyl(13.0, 35, z=45.5)  # clears OD23.2 inner-race spacer
     carrier = carrier - cyl(33.1, 10.5, z=45.5)  # removable cap + C-clamp access
     for z in (56.0, 72.0):
         carrier = carrier - cyl(16.05, 7.05, z=z-0.025)
@@ -183,6 +259,9 @@ def build_pan_support():
             carrier = carrier - insert(name, (x, y, 56.0), "+Z", through=7.0)
     for x, y in UPPER_CAP_BOLTS:
         carrier = carrier - insert(name, (x, y, 79.0), "-Z", through=9.0)
+    before = carrier
+    keep = carrier_structural_regions()
+    carrier = record_lightweight(name, before, before ^ keep, keep)
     add(name, carrier, rotate=(180, 0, 0), group="fixed", explode=(0, 0, 40))
 
     name = "03_Pan_Lower_Cap"
@@ -540,7 +619,7 @@ def main():
     tilt, tqa = load_reference(stl, RTILT, TILT_T)
     refs = {"MKS_Pan": pan, "MKS_Tilt": tilt}
     audit = mesh_qa_and_interference(refs)
-    manifest = {"units": "mm", "design_version": "MKS-V2-prototype",
+    manifest = {"units": "mm", "design_version": "MKS-V2-LW1-prototype-20261116",
                 "go_pro": {"model": "HERO8 Black", "size_mm": [GP_W, GP_H, GP_D],
                            "source": "https://community.gopro.com/s/article/HERO8-Black-Camera-Size-and-Weight",
                            "centre": [0, 0, PITCH_Z]},
@@ -559,10 +638,12 @@ def main():
                          "servo_boss_to_rotating_hub_clearance_mm": 0.30,
                          "6804_seat_D_mm": 32.1, "6800_seat_D_mm": 19.1},
                 "reference_mesh_analysis": {"MKS_Pan": pqa, "MKS_Tilt": tqa},
+                "lightweight_changes": LIGHTWEIGHT_INFO,
                 "assembly_audit": audit,
                 "physical_validation": "Not printed/tested; no full-stall-torque rating"}
     json_write(OUT / "manifest.json", manifest)
     json_write(OUT / "quality_report.json", {"parts": quality, "assembly": audit})
+    json_write(OUT / "lightweight_construction_report.json", LIGHTWEIGHT_INFO)
     print("INSERTS", len(INSERTS), "SCREWS", len(SCREWS), flush=True)
     if audit["static_failures"] or audit["tilt_sweep"]["failures"] or audit["pan_sweep"]["failures"]:
         print("ASSEMBLY NEEDS CORRECTION; see output/manifest.json", flush=True)

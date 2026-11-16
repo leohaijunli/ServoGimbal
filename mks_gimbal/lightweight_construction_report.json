@@ -1,0 +1,20 @@
+{
+  "01_Base": {
+    "before_volume_mm3": 359114.39045039064,
+    "after_volume_mm3": 270097.30827769736,
+    "removed_volume_mm3": 89017.08217269328,
+    "reduction_percent": 24.787946275572715,
+    "protected_region_loss_mm3": 0.0,
+    "added_material_mm3": 3.730349362740526e-14,
+    "scope": "Subtractive relief outside retained load/interface regions; no strength certification"
+  },
+  "02_Pan_Bearing_Carrier": {
+    "before_volume_mm3": 192143.9757848858,
+    "after_volume_mm3": 122491.53355758454,
+    "removed_volume_mm3": 69652.44222730128,
+    "reduction_percent": 36.25013063395777,
+    "protected_region_loss_mm3": 0.0,
+    "added_material_mm3": 0.0,
+    "scope": "Subtractive relief outside retained load/interface regions; no strength certification"
+  }
+}

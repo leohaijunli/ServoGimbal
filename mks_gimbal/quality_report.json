@@ -1,9 +1,9 @@
 {
   "parts": {
     "01_Base": {
-      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-v2\\output\\stl\\01_Base.stl",
-      "vertex_count": 5245,
-      "face_count": 10590,
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-v2\\lightweight-20261116\\candidate\\output\\stl\\01_Base.stl",
+      "vertex_count": 7390,
+      "face_count": 14968,
       "checks": {
         "watertight": {
           "pass": true,
@@ -17,7 +17,7 @@
         },
         "positive_volume": {
           "pass": true,
-          "detail": "Volume: 359114.383 mm³",
+          "detail": "Volume: 270097.300 mm³",
           "fix": "Invert all face normals"
         },
         "no_degenerate_faces": {
@@ -49,11 +49,11 @@
         0
       ],
       "min_z_mm": 0.0,
-      "material_volume_mm3": 359114.38735690893,
+      "material_volume_mm3": 270097.3051842157,
       "file_sha256": {
-        "stl": "b656167c8054db84c06ff87856080dbf58955c597462a2d015bc2c42883169cc",
-        "assembly_meshes": "b656167c8054db84c06ff87856080dbf58955c597462a2d015bc2c42883169cc",
-        "3mf": "e21ec4868b0acae3b566600c20d12489f236f1516e41ead14fa5ff732e3ddbd7"
+        "stl": "128a24801124cdbeee55066661bdb3ac27b47f5ab2cdc965df4dcf16f9a06a23",
+        "assembly_meshes": "128a24801124cdbeee55066661bdb3ac27b47f5ab2cdc965df4dcf16f9a06a23",
+        "3mf": "f70b91d09c58db2368647c2962c21979952e32562044de9221a2c05796adba4a"
       }
     },
     "16_Pan_Front_Mount_Bridge": {
@@ -113,9 +113,9 @@
       }
     },
     "02_Pan_Bearing_Carrier": {
-      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-v2\\output\\stl\\02_Pan_Bearing_Carrier.stl",
-      "vertex_count": 6714,
-      "face_count": 13448,
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-v2\\lightweight-20261116\\candidate\\output\\stl\\02_Pan_Bearing_Carrier.stl",
+      "vertex_count": 7565,
+      "face_count": 15150,
       "checks": {
         "watertight": {
           "pass": true,
@@ -129,7 +129,7 @@
         },
         "positive_volume": {
           "pass": true,
-          "detail": "Volume: 192143.971 mm³",
+          "detail": "Volume: 122491.534 mm³",
           "fix": "Invert all face normals"
         },
         "no_degenerate_faces": {
@@ -161,11 +161,11 @@
         0
       ],
       "min_z_mm": 0.0,
-      "material_volume_mm3": 192143.97124214005,
+      "material_volume_mm3": 122491.53056894722,
       "file_sha256": {
-        "stl": "fab47e0760daa05be7e733b5f318ab22bc0c4b6298b39b6b821dce056addf652",
-        "assembly_meshes": "9176f552a358d4b7bac0dc66bee12adb37ad381229ba3a15eb2b1e6d242b352c",
-        "3mf": "ee0f32d8055aeafe27e1624eee4c0e98b343270459bd58b844addc0ac70fe534"
+        "stl": "f85dfee0df6899117aa097cfdde785dad129644703d43758a066cdecb14ac187",
+        "assembly_meshes": "9f26de8a5eb01d501aa2b4ee2ab4ce6640913ece0ca9f25da4b3c4939d4e660d",
+        "3mf": "9f48b2ab1fe4648740eb1d02de37b8335655b2436011ae72d5cd652d6be3409d"
       }
     },
     "03_Pan_Lower_Cap": {

@@ -1,0 +1,18 @@
+{
+  "file": "PanTilt_motion_preview.mp4",
+  "bytes": 707846,
+  "sha256": "4fe6d4401b4fa9d0953a39864e5a4a86cf2cb90f138d121a946d957e094d18d7",
+  "tracks": [
+    {
+      "handler": "vide",
+      "width": 1280.0,
+      "height": 720.0,
+      "duration_s": 12.0,
+      "frames": 288,
+      "fps": 24.0,
+      "codec": "avc1"
+    }
+  ],
+  "pass": true,
+  "coverage": "MP4 header/sample-table checks plus Blender completed render log; not a full external-decoder test or physical mechanism validation"
+}

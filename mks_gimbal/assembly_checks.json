@@ -1,6 +1,6 @@
 {
   "units": "mm",
-  "manifest_sha256": "7d9ecc8904c67c4fccbc95d9b8ed82a4216eb83b5781b62161c02ba42c488602",
+  "manifest_sha256": "7b9cc2e2a9abd51ee02b0e13490efb3f679c12006c5979264a69b984f820f3d5",
   "fasteners": [
     {
       "id": "S01",
@@ -2818,8 +2818,8 @@
     "parts": [
       {
         "part": "01_Base",
-        "bed_contact_area_mm2": 21866.423,
-        "downward_face_area_excluding_bed_mm2": 5483.693,
+        "bed_contact_area_mm2": 15401.162,
+        "downward_face_area_excluding_bed_mm2": 3152.574,
         "print_rotation_deg": [
           0,
           0,
@@ -2844,8 +2844,8 @@
       },
       {
         "part": "02_Pan_Bearing_Carrier",
-        "bed_contact_area_mm2": 6526.115,
-        "downward_face_area_excluding_bed_mm2": 645.134,
+        "bed_contact_area_mm2": 3938.062,
+        "downward_face_area_excluding_bed_mm2": 3092.565,
         "print_rotation_deg": [
           180,
           0,

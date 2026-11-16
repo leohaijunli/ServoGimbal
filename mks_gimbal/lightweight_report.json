@@ -1,0 +1,53 @@
+{
+  "units": "mm",
+  "parts": {
+    "01_Base": {
+      "before_volume_mm3": 359114.3833667634,
+      "after_volume_mm3": 270097.30020732933,
+      "removed_volume_mm3": 89017.08315943409,
+      "reduction_percent": 24.787947039292202,
+      "protected_material_loss_mm3": 0.0016515143138286252,
+      "added_material_mm3": 0,
+      "bbox_difference_mm": 0.0,
+      "connected_components": 1,
+      "print_mesh_checks_pass": true,
+      "pass": true
+    },
+    "02_Pan_Bearing_Carrier": {
+      "before_volume_mm3": 192143.97056721858,
+      "after_volume_mm3": 122491.53279199396,
+      "removed_volume_mm3": 69652.43777522462,
+      "reduction_percent": 36.250129301277134,
+      "protected_material_loss_mm3": 0.0002662020456129761,
+      "added_material_mm3": 0.001556472139779904,
+      "bbox_difference_mm": 0.0,
+      "connected_components": 1,
+      "print_mesh_checks_pass": true,
+      "pass": true
+    }
+  },
+  "all_interface_parameters_unchanged": true,
+  "unchanged_printed_parts": [
+    "16_Pan_Front_Mount_Bridge",
+    "03_Pan_Lower_Cap",
+    "04_Pan_Upper_Cap",
+    "07_Pan_Inner_Spacer",
+    "05_Pan_25T_Hub",
+    "06_Pan_Clamp_Collar",
+    "08_U_Frame",
+    "15_Removable_Left_Support",
+    "13_Left_Bearing_Cap",
+    "14_Left_Inner_Spacer",
+    "09_HERO8_Cradle",
+    "10_HERO8_Top_Clamp",
+    "11_Tilt_25T_Hub",
+    "12_Tilt_Clamp_Collar"
+  ],
+  "total_before_mm3": 779678.3012828082,
+  "total_after_mm3": 621008.7784369222,
+  "total_reduction_percent": 20.350639819631546,
+  "mesh_simplification_tolerance_mm": 0.003,
+  "protected_compare_limit_mm3": 0.1,
+  "pass": true,
+  "physical_validation": "No FDM fit/load/stiffness acceptance; relief region selection is not an FEA result"
+}
