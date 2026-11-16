@@ -11,6 +11,8 @@
 - [STL 打印件](mks_gimbal/stl/) / [3MF 模型](mks_gimbal/3mf/)：各 16 件。
 - [Blender 总装](mks_gimbal/mks_gimbal.blend) / [Blender 爆炸图](mks_gimbal/mks_gimbal_exploded.blend)。
 - [离线查看器](mks_gimbal/viewer.html)：下载仓库后本地双击；GitHub 文件页不直接运行此 HTML。
+- [Pan / Tilt 运动演示视频](mks_gimbal/animation/PanTilt_motion_preview.mp4)：12 秒 720p 数字运动预览，不是实物机构验证。
+- [LW1 01/02 减重更新](mks_gimbal/LIGHTWEIGHT_UPDATE.md)：净实体体积分别减少 24.8% / 36.3%，孔位、轴线与配合不变。
 - [生成与验证代码](mks_gimbal/source/README.md)。
 
 ## 验证状态
