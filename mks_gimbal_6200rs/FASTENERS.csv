@@ -1,0 +1,48 @@
+﻿ID,接合,螺纹_mm,头下长_mm,标准,接触面坐标_mm,方向,接收零件,啮合_mm,孔底余量_mm,数字结果
+S01,Pan mounting ear,3.0,10,DIN 912,"[36.75, -5.0, 37.3]",-Z,01_Base,2.4,,PASS
+S02,Pan mounting ear,3.0,10,DIN 912,"[36.75, 5.0, 37.3]",-Z,01_Base,2.4,,PASS
+S03,Pan mounting ear,3.0,10,DIN 912,"[-15.75, -5, 37.3]",-Z,16_Pan_Front_Mount_Bridge,2.4,,PASS
+S04,Pan mounting ear,3.0,10,DIN 912,"[-15.75, 5, 37.3]",-Z,16_Pan_Front_Mount_Bridge,2.4,,PASS
+S05,Front bridge to base,2.5,10,DIN 912,"[-38, -22, 31.8]",-Z,01_Base,4.5,,PASS
+S06,Front bridge to base,2.5,10,DIN 912,"[-38, 22, 31.8]",-Z,01_Base,4.5,,PASS
+S07,Front bridge to base,2.5,10,DIN 912,"[-28, -22, 31.8]",-Z,01_Base,4.5,,PASS
+S08,Front bridge to base,2.5,10,DIN 912,"[-28, 22, 31.8]",-Z,01_Base,4.5,,PASS
+S09,Carrier to base,2.5,10,DIN 912,"[-37, -35, 52.0]",-Z,01_Base,4.0,,PASS
+S10,Carrier to base,2.5,10,DIN 912,"[-37, 35, 52.0]",-Z,01_Base,4.0,,PASS
+S11,Carrier to base,2.5,10,DIN 912,"[37, -35, 52.0]",-Z,01_Base,4.0,,PASS
+S12,Carrier to base,2.5,10,DIN 912,"[37, 35, 52.0]",-Z,01_Base,4.0,,PASS
+S13,Lower bearing retainer,2.5,10,DIN 912,"[-19, -19, 52]",+Z,02_Pan_Bearing_Carrier,5.7,,PASS
+S14,Lower bearing retainer,2.5,10,DIN 912,"[-19, 19, 52]",+Z,02_Pan_Bearing_Carrier,5.7,,PASS
+S15,Lower bearing retainer,2.5,10,DIN 912,"[19, -19, 52]",+Z,02_Pan_Bearing_Carrier,5.7,,PASS
+S16,Lower bearing retainer,2.5,10,DIN 912,"[19, 19, 52]",+Z,02_Pan_Bearing_Carrier,5.7,,PASS
+S17,Upper bearing retainer,2.5,8,DIN 912,"[27, 0, 79.5]",-Z,02_Pan_Bearing_Carrier,5.7,,PASS
+S18,Upper bearing retainer,2.5,8,DIN 912,"[-27, 0, 79.5]",-Z,02_Pan_Bearing_Carrier,5.7,,PASS
+S19,Upper bearing retainer,2.5,8,DIN 912,"[0, 27, 79.5]",-Z,02_Pan_Bearing_Carrier,5.7,,PASS
+S20,Upper bearing retainer,2.5,8,DIN 912,"[0, -27, 79.5]",-Z,02_Pan_Bearing_Carrier,5.7,,PASS
+S21,Pan hub OEM shaft retainer,3.0,40,ISO 7380-1,"[0, 0, 87]",-Z,MKS_Pan,4.65,1.3500000000000014,PASS
+S22,Pan spline clamp,2.5,12,DIN 912,"[17, 5.7, 49.75]",-Y,06_Pan_Clamp_Collar,5.2,,PASS
+S23,Tilt mounting ear,3.0,10,DIN 912,"[64.85, -5, 124.25]",-X,08_U_Frame,2.4,,PASS
+S24,Tilt mounting ear,3.0,10,DIN 912,"[64.85, -5, 176.75]",-X,08_U_Frame,2.4,,PASS
+S25,Tilt mounting ear,3.0,10,DIN 912,"[64.85, 5, 124.25]",-X,08_U_Frame,2.4,,PASS
+S26,Tilt mounting ear,3.0,10,DIN 912,"[64.85, 5, 176.75]",-X,08_U_Frame,2.4,,PASS
+S27,U-frame to Pan flange,2.5,10,DIN 912,"[-23, -17, 93.8]",-Z,05_Pan_25T_Hub,4.5,,PASS
+S28,U-frame to Pan flange,2.5,10,DIN 912,"[-23, 17, 93.8]",-Z,05_Pan_25T_Hub,4.5,,PASS
+S29,U-frame to Pan flange,2.5,10,DIN 912,"[23, -17, 93.8]",-Z,05_Pan_25T_Hub,4.5,,PASS
+S30,U-frame to Pan flange,2.5,10,DIN 912,"[23, 17, 93.8]",-Z,05_Pan_25T_Hub,4.5,,PASS
+S31,Left support to deck,2.5,10,DIN 912,"[-62, -23, 102.3]",-Z,08_U_Frame,4.0,,PASS
+S32,Left support to deck,2.5,10,DIN 912,"[-62, 23, 102.3]",-Z,08_U_Frame,4.0,,PASS
+S33,Left support to deck,2.5,10,DIN 912,"[-46, -23, 102.3]",-Z,08_U_Frame,4.0,,PASS
+S34,Left support to deck,2.5,10,DIN 912,"[-46, 23, 102.3]",-Z,08_U_Frame,4.0,,PASS
+S35,Left bearing retainer,2.5,8,DIN 912,"[-59.0, -14, 126.0]",+X,15_Removable_Left_Support,5.0,,PASS
+S36,Left bearing retainer,2.5,8,DIN 912,"[-59.0, -14, 154.0]",+X,15_Removable_Left_Support,5.0,,PASS
+S37,Left bearing retainer,2.5,8,DIN 912,"[-59.0, 14, 126.0]",+X,15_Removable_Left_Support,5.0,,PASS
+S38,Left bearing retainer,2.5,8,DIN 912,"[-59.0, 14, 154.0]",+X,15_Removable_Left_Support,5.0,,PASS
+S39,Left journal inner-race clamp,2.5,10,DIN 912,"[-60.4, 0, 140.0]",+X,09_HERO8_Cradle,5.7,,PASS
+S40,HERO8 removable top clamp,2.5,10,DIN 912,"[-20, 20.8, 167.3]",-Z,09_HERO8_Cradle,5.7,,PASS
+S41,HERO8 removable top clamp,2.5,10,DIN 912,"[20, 20.8, 167.3]",-Z,09_HERO8_Cradle,5.7,,PASS
+S42,Tilt flange to cradle,2.5,6,DIN 912,"[42.0, -9.899494936611665, 130.10050506338834]",-X,09_HERO8_Cradle,4.5,,PASS
+S43,Tilt flange to cradle,2.5,6,DIN 912,"[42.0, -9.899494936611665, 149.89949493661166]",-X,09_HERO8_Cradle,4.5,,PASS
+S44,Tilt flange to cradle,2.5,6,DIN 912,"[42.0, 9.899494936611665, 130.10050506338834]",-X,09_HERO8_Cradle,4.5,,PASS
+S45,Tilt flange to cradle,2.5,6,DIN 912,"[42.0, 9.899494936611665, 149.89949493661166]",-X,09_HERO8_Cradle,4.5,,PASS
+S46,Tilt hub OEM shaft retainer,3.0,8,ISO 7380-1,"[43.5, 0, 140.0]",+X,MKS_Tilt,4.5,1.5,PASS
+S47,Tilt spline clamp,2.5,12,DIN 912,"[48.7, 5.7, 157.0]",-Y,12_Tilt_Clamp_Collar,5.2,,PASS

@@ -1,0 +1,71 @@
+PDF text, decoded using embedded Adobe-Identity-UCS CMap.
+61800
+Deep groove ball bearings
+Bearing data
+Tolerances,
+Normal (metric), P6, P5, Normal (inch),
+Radial internal clearance,
+Matched bearing pairs, Stainless steel
+d < 10 mm, Other bearings
+Bearing interfaces
+Seat tolerances for standard
+conditions,
+Tolerances and resultant fits
+Technical specification 
+DIMENSIONS 
+d
+10 mm
+D
+19 mm
+B
+5 mm
+d
+1
+≈ 12.74 mm
+D
+1
+≈ 16.26 mm
+r
+1,2
+min. 0.3 mm
+ABUTMENT DIMENSIONS 
+d
+a
+min. 12 mm
+D
+a
+max. 17 mm
+r
+a
+max. 0.3 mm
+Generated from www.skf.com on 2020-12-18
+Page 1 of 4
+CALCULATION DATA 
+Basic dynamic load rating
+C
+1.72 kN
+Basic static load rating
+C
+0
+0.83 kN
+Fatigue load limit
+P
+u
+0.036 kN
+Reference speed
+80000 r/min
+Limiting speed
+48000 r/min
+Calculation factor
+k
+r
+0.015
+Calculation factor
+f
+0
+14.8
+MASS 
+Mass bearing
+0.0053 kg
+Generated from www.skf.com on 2020-12-18
+Page 2 of 4

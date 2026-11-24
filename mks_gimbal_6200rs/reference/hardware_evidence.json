@@ -1,0 +1,52 @@
+{
+  "units": "mm",
+  "review_date": "2026-11-24",
+  "servo_mount_note": "HBL388 manufacturer drawing identifies M3 at the shaft centre and R2 open mounting-ear slots; use M3 through-bolts/captive DIN934 nuts, not assumed tapped ear holes or housing screws.",
+  "servo_drawing_sha256": "9c94f5f8621c4f68b91d339f8dfa02001de110dc7aa7f5667403ac0a79b71c1e",
+  "inserts": {
+    "product": "ruthex RX-M2.5x5.7", "SKU": "GE-M25x57-001",
+    "thread": "M2.5", "length": 5.7, "knurl_max_OD": 4.6,
+    "pilot_trials": [3.8, 4.0, 4.2], "prototype_pilot": 4.0,
+    "physical_installation": "not tested",
+    "source": "https://www.ruthex.de/en/products/ruthex-gewindeeinsatz-m2-5-70-stuck-rx-m2-5x5-7-messing-gewindebuchsen",
+    "manufacturer_CAD_url": "https://cdn.shopify.com/s/files/1/0567/7019/9760/files/RX-M2.5x5.7.step?v=1621264615"
+  },
+  "bearings": [
+    {
+      "product": "6200RS (user stock; brand and seal count not supplied)",
+      "bore": 10, "OD": 30, "width": 9, "quantity": 3,
+      "allocation": {"Pan": 2, "Tilt": 1},
+      "catalogue_reference_product": "SKF 6200-2RSH",
+      "inner_shoulder_d2_approx": 15.07, "outer_recess_D2_approx": 24.72,
+      "shaft_abutment_da_min": 14.2, "shaft_abutment_da_max": 15.0,
+      "housing_abutment_Da_max": 25.8, "fillet_radius_ra_max": 0.6,
+      "design_inner_contact_OD": 14.4, "design_outer_retainer_ID": 25.6,
+      "source": "https://www.industrial-gp.ro/Admin/Public/Download.aspx?File=Files%2FDigitalAssets%2FPDF%2FFisaTehnica%2FSKF+6200-2RSH+Fisa+Tehnica.pdf",
+      "local_document": "SKF_6200_2RSH_dimensions.pdf",
+      "document_sha256": "eebedd9155d31d62503ee2585c8841a340131e8407462ce40d277384975a023a",
+      "local_text": "SKF_6200_2RSH_dimensions.txt",
+      "source_method": "SKF generated product sheet distributed by Industrial-GP; numerical text decoded from embedded Unicode CMap, not guessed from a model envelope",
+      "envelope_crosscheck_source": "https://docs.rs-online.com/b357/A700000009136301.pdf",
+      "envelope_crosscheck_local_document": "SKF_6200_2RSH_C3_RS.pdf",
+      "envelope_crosscheck_sha256": "c105ae9523fd2654aa1113dccb2c1b2e1866ff08104628eff2f6a208f9bf15c0",
+      "units": "mm",
+      "coordinate_frame": "Bearing-local axial coordinate: bore axis +Z, entrance face at Z=0; assembly rigid transforms recorded in manifest.json",
+      "tolerances": "Catalogue dimensions are nominal. Approximate ring shoulders are not tolerances; actual user-bearing brand, shoulders, chamfers, seals and internal clearance remain unmeasured.",
+      "verification_status": "10x30x9 catalogue envelope and SKF reference abutments verified from extracted source text; compatibility of user's individual bearings requires physical trial",
+      "seal_note": "RS/2RS suffixes must not be silently equated. Geometry uses the common 6200 envelope; bearing/seal friction and face clearance require physical acceptance."
+    }
+  ],
+  "fasteners": {
+    "DIN912_M2.5": {"pitch": 0.45, "plain_head_D": 4.5, "head_H": 2.5, "hex_key_AF": 2.0},
+    "DIN912_M3": {"pitch": 0.5, "plain_head_D": 5.5, "head_H": 3.0, "hex_key_AF": 2.5},
+    "DIN912_source": "https://fullerfasteners.com/tech/din-912-specifications-hex-socket-head-cap-screws/",
+    "ISO7380_1_M3": {"pitch": 0.5, "head_D": 5.7, "head_H": 1.65, "hex_key_AF": 2.0},
+    "ISO7380_source": "https://www.woodstockindustrial.com/specs/iso-7380-1",
+    "DIN934_M3": {"across_flats": 5.5, "thickness": 2.4},
+    "DIN934_source": "https://accu-components.com/us/hexagon-nuts/766485-NUT930M3C",
+    "DIN125A_M2.5": {"ID": 2.7, "OD": 6.0, "thickness": 0.5},
+    "DIN125A_M3": {"ID": 3.2, "OD": 7.0, "thickness": 0.5},
+    "washers_source": "https://www.woodstockindustrial.com/specs/din-125a"
+  },
+  "limitations": "Sourced catalogue envelopes and CAD verification only. No real fastener, tool, bearing, insert or printed-part acceptance test. SKF abutments are a named reference, not proof of an unknown-brand 6200RS face/seal geometry. Historical SKF_61800 files, if present, are retained references and are not current BOM items."
+}

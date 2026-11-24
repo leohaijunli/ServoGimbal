@@ -1,0 +1,63 @@
+{
+  "blender_version": "4.5.16 LTS",
+  "geometry_units": "mm",
+  "design_version": "MKS-6200RS-MINREPRINT-LW1-prototype-20261124",
+  "bearing_design": {
+    "product": "6200RS (user stock; brand and seal count not supplied)",
+    "nominal_size_mm": [
+      10.0,
+      30.0,
+      9.0
+    ],
+    "quantity": 3,
+    "allocation": {
+      "Pan": 2,
+      "Tilt": 1
+    },
+    "seat_D_mm": 30.1,
+    "journal_D_mm": 9.98,
+    "fit_type": "Nominal clearance; +0.10 mm seat and -0.02 mm journal are untested FDM starting values, not guaranteed fits",
+    "inner_contact_OD_mm": 14.4,
+    "outer_retainer_ID_mm": 25.6,
+    "Pan_bearing_start_Z_mm": [
+      57.0,
+      69.0
+    ],
+    "Pan_bearing_centre_span_mm": 12.0,
+    "Pan_inner_spacer_length_mm": 3.0,
+    "Pan_inner_stack_mm": 21.0,
+    "Pan_upper_inner_shoulder_Z_mm": 78.0,
+    "Pan_lower_inner_stop_Z_mm": 56.85,
+    "Pan_key_male_AF_mm": 8.0,
+    "Pan_key_female_AF_mm": 8.12,
+    "Pan_key_engagement_mm": 4.450000000000003,
+    "outer_adapter_print_file": "18_6200RS_Outer_Ring_Adapter",
+    "outer_adapter_quantity": 3,
+    "outer_adapter_size_mm": [
+      34.0,
+      25.6,
+      1.0
+    ],
+    "Tilt_bearing_faces_X_mm": [
+      -56.0,
+      -47.0
+    ],
+    "Tilt_support_thickness_mm": 12.0,
+    "Tilt_journal_end_X_mm": -57.4,
+    "Tilt_retainer_to_journal_end_reserve_mm": 0.45,
+    "single_bearing_decision": "Tilt has one external bearing and an opposite servo-supported end. Pan retains two separated bearings; no single-external-bearing Pan load rating is claimed.",
+    "reprint_policy": "Keep physical files 01,03,04,06,08,10,11,12,13,16. Reprint original 02,05,07,09,14,15; add 17 and three copies of one shared 18 file. Part 13 is reposed only."
+  },
+  "GLB_coordinate_convention": "glTF Y-up, metre world dimensions via 0.001 root",
+  "reference_sha256": "5cf0fc2613ed429b833812b36cc5394e5df93e6f865ef1aca91f640726b70aea",
+  "raw_reference_triangles": 63106,
+  "raw_reference_vertices": 31577,
+  "raw_surface_triangles_exact_match": true,
+  "display_stator_triangles": 55648,
+  "display_rotor_triangles": 7458,
+  "reference_vertices_changed": false,
+  "printed_parts": 20,
+  "unique_print_files": 18,
+  "hardware_note": "Non-printable envelopes; threads, rolling elements and knurls simplified",
+  "assembly_checks_sha256": "9e52c5f68e1f7405a464991938405ee7aceef1ef277a687abd7686f327c24174"
+}

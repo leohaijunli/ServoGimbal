@@ -1,0 +1,3307 @@
+{
+  "units": "mm",
+  "manifest_sha256": "815cb5684f44a35024c214a8c107438b05c19ccd4c6f27de24eea61f7111bb8a",
+  "fasteners": [
+    {
+      "id": "S01",
+      "joint": "Pan mounting ear",
+      "bearing_surface": [
+        36.75,
+        -5.0,
+        37.3
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 3.0,
+      "washer_mm": 0.5,
+      "washer_OD_mm": 7.0,
+      "washer_ID_mm": 3.2,
+      "head_standard": "DIN 912",
+      "head_D_mm": 5.5,
+      "head_H_mm": 3.0,
+      "hex_key_mm": 2.5,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        28
+      ],
+      "receiver_kind": "nut",
+      "receiver_part": "01_Base",
+      "grip_to_first_thread_mm": 5.9,
+      "engagement_mm": 2.4,
+      "required_engagement_mm": 2.4,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S02",
+      "joint": "Pan mounting ear",
+      "bearing_surface": [
+        36.75,
+        5.0,
+        37.3
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 3.0,
+      "washer_mm": 0.5,
+      "washer_OD_mm": 7.0,
+      "washer_ID_mm": 3.2,
+      "head_standard": "DIN 912",
+      "head_D_mm": 5.5,
+      "head_H_mm": 3.0,
+      "hex_key_mm": 2.5,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        28
+      ],
+      "receiver_kind": "nut",
+      "receiver_part": "01_Base",
+      "grip_to_first_thread_mm": 5.9,
+      "engagement_mm": 2.4,
+      "required_engagement_mm": 2.4,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S03",
+      "joint": "Pan mounting ear",
+      "bearing_surface": [
+        -15.75,
+        -5,
+        37.3
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 3.0,
+      "washer_mm": 0.5,
+      "washer_OD_mm": 7.0,
+      "washer_ID_mm": 3.2,
+      "head_standard": "DIN 912",
+      "head_D_mm": 5.5,
+      "head_H_mm": 3.0,
+      "hex_key_mm": 2.5,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        28
+      ],
+      "receiver_kind": "nut",
+      "receiver_part": "16_Pan_Front_Mount_Bridge",
+      "grip_to_first_thread_mm": 5.9,
+      "engagement_mm": 2.4,
+      "required_engagement_mm": 2.4,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S04",
+      "joint": "Pan mounting ear",
+      "bearing_surface": [
+        -15.75,
+        5,
+        37.3
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 3.0,
+      "washer_mm": 0.5,
+      "washer_OD_mm": 7.0,
+      "washer_ID_mm": 3.2,
+      "head_standard": "DIN 912",
+      "head_D_mm": 5.5,
+      "head_H_mm": 3.0,
+      "hex_key_mm": 2.5,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        28
+      ],
+      "receiver_kind": "nut",
+      "receiver_part": "16_Pan_Front_Mount_Bridge",
+      "grip_to_first_thread_mm": 5.9,
+      "engagement_mm": 2.4,
+      "required_engagement_mm": 2.4,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S05",
+      "joint": "Front bridge to base",
+      "bearing_surface": [
+        -38,
+        -22,
+        31.8
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        -45,
+        0,
+        20
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "01_Base",
+      "grip_to_first_thread_mm": 5.5,
+      "engagement_mm": 4.5,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S06",
+      "joint": "Front bridge to base",
+      "bearing_surface": [
+        -38,
+        22,
+        31.8
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        -45,
+        0,
+        20
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "01_Base",
+      "grip_to_first_thread_mm": 5.5,
+      "engagement_mm": 4.5,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S07",
+      "joint": "Front bridge to base",
+      "bearing_surface": [
+        -28,
+        -22,
+        31.8
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        -45,
+        0,
+        20
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "01_Base",
+      "grip_to_first_thread_mm": 5.5,
+      "engagement_mm": 4.5,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S08",
+      "joint": "Front bridge to base",
+      "bearing_surface": [
+        -28,
+        22,
+        31.8
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        -45,
+        0,
+        20
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "01_Base",
+      "grip_to_first_thread_mm": 5.5,
+      "engagement_mm": 4.5,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S09",
+      "joint": "Carrier to base",
+      "bearing_surface": [
+        -37,
+        -35,
+        52.0
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        40
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "01_Base",
+      "grip_to_first_thread_mm": 6.0,
+      "engagement_mm": 4.0,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S10",
+      "joint": "Carrier to base",
+      "bearing_surface": [
+        -37,
+        35,
+        52.0
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        40
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "01_Base",
+      "grip_to_first_thread_mm": 6.0,
+      "engagement_mm": 4.0,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S11",
+      "joint": "Carrier to base",
+      "bearing_surface": [
+        37,
+        -35,
+        52.0
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        40
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "01_Base",
+      "grip_to_first_thread_mm": 6.0,
+      "engagement_mm": 4.0,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S12",
+      "joint": "Carrier to base",
+      "bearing_surface": [
+        37,
+        35,
+        52.0
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        40
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "01_Base",
+      "grip_to_first_thread_mm": 6.0,
+      "engagement_mm": 4.0,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S13",
+      "joint": "Lower bearing retainer",
+      "bearing_surface": [
+        -19,
+        -19,
+        52
+      ],
+      "direction": "+Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        28
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "02_Pan_Bearing_Carrier",
+      "grip_to_first_thread_mm": 4.0,
+      "engagement_mm": 5.7,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S14",
+      "joint": "Lower bearing retainer",
+      "bearing_surface": [
+        -19,
+        19,
+        52
+      ],
+      "direction": "+Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        28
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "02_Pan_Bearing_Carrier",
+      "grip_to_first_thread_mm": 4.0,
+      "engagement_mm": 5.7,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S15",
+      "joint": "Lower bearing retainer",
+      "bearing_surface": [
+        19,
+        -19,
+        52
+      ],
+      "direction": "+Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        28
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "02_Pan_Bearing_Carrier",
+      "grip_to_first_thread_mm": 4.0,
+      "engagement_mm": 5.7,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S16",
+      "joint": "Lower bearing retainer",
+      "bearing_surface": [
+        19,
+        19,
+        52
+      ],
+      "direction": "+Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        28
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "02_Pan_Bearing_Carrier",
+      "grip_to_first_thread_mm": 4.0,
+      "engagement_mm": 5.7,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S17",
+      "joint": "Upper bearing retainer",
+      "bearing_surface": [
+        27,
+        0,
+        79.5
+      ],
+      "direction": "-Z",
+      "length_mm": 8,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        60
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "02_Pan_Bearing_Carrier",
+      "grip_to_first_thread_mm": 0.5,
+      "engagement_mm": 5.7,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S18",
+      "joint": "Upper bearing retainer",
+      "bearing_surface": [
+        -27,
+        0,
+        79.5
+      ],
+      "direction": "-Z",
+      "length_mm": 8,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        60
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "02_Pan_Bearing_Carrier",
+      "grip_to_first_thread_mm": 0.5,
+      "engagement_mm": 5.7,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S19",
+      "joint": "Upper bearing retainer",
+      "bearing_surface": [
+        0,
+        27,
+        79.5
+      ],
+      "direction": "-Z",
+      "length_mm": 8,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        60
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "02_Pan_Bearing_Carrier",
+      "grip_to_first_thread_mm": 0.5,
+      "engagement_mm": 5.7,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S20",
+      "joint": "Upper bearing retainer",
+      "bearing_surface": [
+        0,
+        -27,
+        79.5
+      ],
+      "direction": "-Z",
+      "length_mm": 8,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        60
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "02_Pan_Bearing_Carrier",
+      "grip_to_first_thread_mm": 0.5,
+      "engagement_mm": 5.7,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S21",
+      "joint": "Pan hub OEM shaft retainer",
+      "bearing_surface": [
+        0,
+        0,
+        87
+      ],
+      "direction": "-Z",
+      "length_mm": 40,
+      "thread_mm": 3.0,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 3.2,
+      "head_standard": "ISO 7380-1",
+      "head_D_mm": 5.7,
+      "head_H_mm": 1.65,
+      "hex_key_mm": 2.0,
+      "group": "pan",
+      "explode_mm": [
+        0,
+        0,
+        68
+      ],
+      "receiver_kind": "OEM thread",
+      "receiver_part": "MKS_Pan",
+      "grip_to_first_thread_mm": 35.35,
+      "engagement_mm": 4.65,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": 1.3500000000000014,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S22",
+      "joint": "Pan spline clamp",
+      "bearing_surface": [
+        17,
+        5.7,
+        49.75
+      ],
+      "direction": "-Y",
+      "length_mm": 12,
+      "thread_mm": 2.5,
+      "washer_mm": 0.5,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "pan",
+      "explode_mm": [
+        28,
+        0,
+        38
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "06_Pan_Clamp_Collar",
+      "grip_to_first_thread_mm": 6.8,
+      "engagement_mm": 5.2,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S23",
+      "joint": "Tilt mounting ear",
+      "bearing_surface": [
+        64.85,
+        -5,
+        124.25
+      ],
+      "direction": "-X",
+      "length_mm": 10,
+      "thread_mm": 3.0,
+      "washer_mm": 0.5,
+      "washer_OD_mm": 7.0,
+      "washer_ID_mm": 3.2,
+      "head_standard": "DIN 912",
+      "head_D_mm": 5.5,
+      "head_H_mm": 3.0,
+      "hex_key_mm": 2.5,
+      "group": "pan",
+      "explode_mm": [
+        45,
+        0,
+        95
+      ],
+      "receiver_kind": "nut",
+      "receiver_part": "08_U_Frame",
+      "grip_to_first_thread_mm": 6.3,
+      "engagement_mm": 2.4,
+      "required_engagement_mm": 2.4,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S24",
+      "joint": "Tilt mounting ear",
+      "bearing_surface": [
+        64.85,
+        -5,
+        176.75
+      ],
+      "direction": "-X",
+      "length_mm": 10,
+      "thread_mm": 3.0,
+      "washer_mm": 0.5,
+      "washer_OD_mm": 7.0,
+      "washer_ID_mm": 3.2,
+      "head_standard": "DIN 912",
+      "head_D_mm": 5.5,
+      "head_H_mm": 3.0,
+      "hex_key_mm": 2.5,
+      "group": "pan",
+      "explode_mm": [
+        45,
+        0,
+        95
+      ],
+      "receiver_kind": "nut",
+      "receiver_part": "08_U_Frame",
+      "grip_to_first_thread_mm": 6.3,
+      "engagement_mm": 2.4,
+      "required_engagement_mm": 2.4,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S25",
+      "joint": "Tilt mounting ear",
+      "bearing_surface": [
+        64.85,
+        5,
+        124.25
+      ],
+      "direction": "-X",
+      "length_mm": 10,
+      "thread_mm": 3.0,
+      "washer_mm": 0.5,
+      "washer_OD_mm": 7.0,
+      "washer_ID_mm": 3.2,
+      "head_standard": "DIN 912",
+      "head_D_mm": 5.5,
+      "head_H_mm": 3.0,
+      "hex_key_mm": 2.5,
+      "group": "pan",
+      "explode_mm": [
+        45,
+        0,
+        95
+      ],
+      "receiver_kind": "nut",
+      "receiver_part": "08_U_Frame",
+      "grip_to_first_thread_mm": 6.3,
+      "engagement_mm": 2.4,
+      "required_engagement_mm": 2.4,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S26",
+      "joint": "Tilt mounting ear",
+      "bearing_surface": [
+        64.85,
+        5,
+        176.75
+      ],
+      "direction": "-X",
+      "length_mm": 10,
+      "thread_mm": 3.0,
+      "washer_mm": 0.5,
+      "washer_OD_mm": 7.0,
+      "washer_ID_mm": 3.2,
+      "head_standard": "DIN 912",
+      "head_D_mm": 5.5,
+      "head_H_mm": 3.0,
+      "hex_key_mm": 2.5,
+      "group": "pan",
+      "explode_mm": [
+        45,
+        0,
+        95
+      ],
+      "receiver_kind": "nut",
+      "receiver_part": "08_U_Frame",
+      "grip_to_first_thread_mm": 6.3,
+      "engagement_mm": 2.4,
+      "required_engagement_mm": 2.4,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S27",
+      "joint": "U-frame to Pan flange",
+      "bearing_surface": [
+        -23,
+        -17,
+        93.8
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "pan",
+      "explode_mm": [
+        0,
+        0,
+        90
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "05_Pan_25T_Hub",
+      "grip_to_first_thread_mm": 5.5,
+      "engagement_mm": 4.5,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S28",
+      "joint": "U-frame to Pan flange",
+      "bearing_surface": [
+        -23,
+        17,
+        93.8
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "pan",
+      "explode_mm": [
+        0,
+        0,
+        90
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "05_Pan_25T_Hub",
+      "grip_to_first_thread_mm": 5.5,
+      "engagement_mm": 4.5,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S29",
+      "joint": "U-frame to Pan flange",
+      "bearing_surface": [
+        23,
+        -17,
+        93.8
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "pan",
+      "explode_mm": [
+        0,
+        0,
+        90
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "05_Pan_25T_Hub",
+      "grip_to_first_thread_mm": 5.5,
+      "engagement_mm": 4.5,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S30",
+      "joint": "U-frame to Pan flange",
+      "bearing_surface": [
+        23,
+        17,
+        93.8
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "pan",
+      "explode_mm": [
+        0,
+        0,
+        90
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "05_Pan_25T_Hub",
+      "grip_to_first_thread_mm": 5.5,
+      "engagement_mm": 4.5,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S31",
+      "joint": "Left support to deck",
+      "bearing_surface": [
+        -62,
+        -23,
+        102.3
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "pan",
+      "explode_mm": [
+        -32,
+        0,
+        90
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "08_U_Frame",
+      "grip_to_first_thread_mm": 6.0,
+      "engagement_mm": 4.0,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S32",
+      "joint": "Left support to deck",
+      "bearing_surface": [
+        -62,
+        23,
+        102.3
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "pan",
+      "explode_mm": [
+        -32,
+        0,
+        90
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "08_U_Frame",
+      "grip_to_first_thread_mm": 6.0,
+      "engagement_mm": 4.0,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S33",
+      "joint": "Left support to deck",
+      "bearing_surface": [
+        -46,
+        -23,
+        102.3
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "pan",
+      "explode_mm": [
+        -32,
+        0,
+        90
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "08_U_Frame",
+      "grip_to_first_thread_mm": 6.0,
+      "engagement_mm": 4.0,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S34",
+      "joint": "Left support to deck",
+      "bearing_surface": [
+        -46,
+        23,
+        102.3
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "pan",
+      "explode_mm": [
+        -32,
+        0,
+        90
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "08_U_Frame",
+      "grip_to_first_thread_mm": 6.0,
+      "engagement_mm": 4.0,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S35",
+      "joint": "Left bearing retainer",
+      "bearing_surface": [
+        -59.0,
+        -14,
+        126.0
+      ],
+      "direction": "+X",
+      "length_mm": 8,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "pan",
+      "explode_mm": [
+        -32,
+        0,
+        90
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "15_Removable_Left_Support",
+      "grip_to_first_thread_mm": 3.0,
+      "engagement_mm": 5.0,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S36",
+      "joint": "Left bearing retainer",
+      "bearing_surface": [
+        -59.0,
+        -14,
+        154.0
+      ],
+      "direction": "+X",
+      "length_mm": 8,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "pan",
+      "explode_mm": [
+        -32,
+        0,
+        90
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "15_Removable_Left_Support",
+      "grip_to_first_thread_mm": 3.0,
+      "engagement_mm": 5.0,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S37",
+      "joint": "Left bearing retainer",
+      "bearing_surface": [
+        -59.0,
+        14,
+        126.0
+      ],
+      "direction": "+X",
+      "length_mm": 8,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "pan",
+      "explode_mm": [
+        -32,
+        0,
+        90
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "15_Removable_Left_Support",
+      "grip_to_first_thread_mm": 3.0,
+      "engagement_mm": 5.0,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S38",
+      "joint": "Left bearing retainer",
+      "bearing_surface": [
+        -59.0,
+        14,
+        154.0
+      ],
+      "direction": "+X",
+      "length_mm": 8,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "pan",
+      "explode_mm": [
+        -32,
+        0,
+        90
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "15_Removable_Left_Support",
+      "grip_to_first_thread_mm": 3.0,
+      "engagement_mm": 5.0,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S39",
+      "joint": "Left journal inner-race clamp",
+      "bearing_surface": [
+        -60.4,
+        0,
+        140.0
+      ],
+      "direction": "+X",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0.5,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "tilt",
+      "explode_mm": [
+        -24,
+        0,
+        120
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "09_HERO8_Cradle",
+      "grip_to_first_thread_mm": 3.0,
+      "engagement_mm": 5.7,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S40",
+      "joint": "HERO8 removable top clamp",
+      "bearing_surface": [
+        -20,
+        20.8,
+        167.3
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "tilt",
+      "explode_mm": [
+        0,
+        0,
+        235
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "09_HERO8_Cradle",
+      "grip_to_first_thread_mm": 1.5,
+      "engagement_mm": 5.7,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S41",
+      "joint": "HERO8 removable top clamp",
+      "bearing_surface": [
+        20,
+        20.8,
+        167.3
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "tilt",
+      "explode_mm": [
+        0,
+        0,
+        235
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "09_HERO8_Cradle",
+      "grip_to_first_thread_mm": 1.5,
+      "engagement_mm": 5.7,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S42",
+      "joint": "Tilt flange to cradle",
+      "bearing_surface": [
+        42.0,
+        -9.899494936611665,
+        130.10050506338834
+      ],
+      "direction": "-X",
+      "length_mm": 6,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "tilt",
+      "explode_mm": [
+        28,
+        0,
+        145
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "09_HERO8_Cradle",
+      "grip_to_first_thread_mm": 1.5,
+      "engagement_mm": 4.5,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S43",
+      "joint": "Tilt flange to cradle",
+      "bearing_surface": [
+        42.0,
+        -9.899494936611665,
+        149.89949493661166
+      ],
+      "direction": "-X",
+      "length_mm": 6,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "tilt",
+      "explode_mm": [
+        28,
+        0,
+        145
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "09_HERO8_Cradle",
+      "grip_to_first_thread_mm": 1.5,
+      "engagement_mm": 4.5,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S44",
+      "joint": "Tilt flange to cradle",
+      "bearing_surface": [
+        42.0,
+        9.899494936611665,
+        130.10050506338834
+      ],
+      "direction": "-X",
+      "length_mm": 6,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "tilt",
+      "explode_mm": [
+        28,
+        0,
+        145
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "09_HERO8_Cradle",
+      "grip_to_first_thread_mm": 1.5,
+      "engagement_mm": 4.5,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S45",
+      "joint": "Tilt flange to cradle",
+      "bearing_surface": [
+        42.0,
+        9.899494936611665,
+        149.89949493661166
+      ],
+      "direction": "-X",
+      "length_mm": 6,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "tilt",
+      "explode_mm": [
+        28,
+        0,
+        145
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "09_HERO8_Cradle",
+      "grip_to_first_thread_mm": 1.5,
+      "engagement_mm": 4.5,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S46",
+      "joint": "Tilt hub OEM shaft retainer",
+      "bearing_surface": [
+        43.5,
+        0,
+        140.0
+      ],
+      "direction": "+X",
+      "length_mm": 8,
+      "thread_mm": 3.0,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 3.2,
+      "head_standard": "ISO 7380-1",
+      "head_D_mm": 5.7,
+      "head_H_mm": 1.65,
+      "hex_key_mm": 2.0,
+      "group": "tilt",
+      "explode_mm": [
+        28,
+        0,
+        145
+      ],
+      "receiver_kind": "OEM thread",
+      "receiver_part": "MKS_Tilt",
+      "grip_to_first_thread_mm": 3.5,
+      "engagement_mm": 4.5,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": 1.5,
+      "clashes": [],
+      "pass": true
+    },
+    {
+      "id": "S47",
+      "joint": "Tilt spline clamp",
+      "bearing_surface": [
+        48.7,
+        5.7,
+        157.0
+      ],
+      "direction": "-Y",
+      "length_mm": 12,
+      "thread_mm": 2.5,
+      "washer_mm": 0.5,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "tilt",
+      "explode_mm": [
+        42,
+        0,
+        145
+      ],
+      "receiver_kind": "insert",
+      "receiver_part": "12_Tilt_Clamp_Collar",
+      "grip_to_first_thread_mm": 6.8,
+      "engagement_mm": 5.2,
+      "required_engagement_mm": 4.0,
+      "OEM_thread_bottom_reserve_mm": null,
+      "clashes": [],
+      "pass": true
+    }
+  ],
+  "hardware_static_failures": [],
+  "tools": {
+    "screw_access": [
+      {
+        "id": "S01",
+        "joint": "Pan mounting ear",
+        "stage": "先固定Pan舵机，尚未放入轴承模块",
+        "stem_OD_mm": 3.0867513459481293,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.5,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S02",
+        "joint": "Pan mounting ear",
+        "stage": "先固定Pan舵机，尚未放入轴承模块",
+        "stem_OD_mm": 3.0867513459481293,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.5,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S03",
+        "joint": "Pan mounting ear",
+        "stage": "先固定Pan舵机，尚未放入轴承模块",
+        "stem_OD_mm": 3.0867513459481293,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.5,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S04",
+        "joint": "Pan mounting ear",
+        "stage": "先固定Pan舵机，尚未放入轴承模块",
+        "stem_OD_mm": 3.0867513459481293,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.5,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S05",
+        "joint": "Front bridge to base",
+        "stage": "插入舵机后，从前侧滑入安装桥，再经顶面紧固",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S06",
+        "joint": "Front bridge to base",
+        "stage": "插入舵机后，从前侧滑入安装桥，再经顶面紧固",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S07",
+        "joint": "Front bridge to base",
+        "stage": "插入舵机后，从前侧滑入安装桥，再经顶面紧固",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S08",
+        "joint": "Front bridge to base",
+        "stage": "插入舵机后，从前侧滑入安装桥，再经顶面紧固",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S09",
+        "joint": "Carrier to base",
+        "stage": "先经四个深工具孔紧固，后装转台",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S10",
+        "joint": "Carrier to base",
+        "stage": "先经四个深工具孔紧固，后装转台",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S11",
+        "joint": "Carrier to base",
+        "stage": "先经四个深工具孔紧固，后装转台",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S12",
+        "joint": "Carrier to base",
+        "stage": "先经四个深工具孔紧固，后装转台",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S13",
+        "joint": "Lower bearing retainer",
+        "stage": "轴承模块独立装配，未安装到底座",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S14",
+        "joint": "Lower bearing retainer",
+        "stage": "轴承模块独立装配，未安装到底座",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S15",
+        "joint": "Lower bearing retainer",
+        "stage": "轴承模块独立装配，未安装到底座",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S16",
+        "joint": "Lower bearing retainer",
+        "stage": "轴承模块独立装配，未安装到底座",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S17",
+        "joint": "Upper bearing retainer",
+        "stage": "经Pan法兰四个工具孔拧紧，尚未安装转台",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S18",
+        "joint": "Upper bearing retainer",
+        "stage": "经Pan法兰四个工具孔拧紧，尚未安装转台",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S19",
+        "joint": "Upper bearing retainer",
+        "stage": "经Pan法兰四个工具孔拧紧，尚未安装转台",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S20",
+        "joint": "Upper bearing retainer",
+        "stage": "经Pan法兰四个工具孔拧紧，尚未安装转台",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S21",
+        "joint": "Pan hub OEM shaft retainer",
+        "stage": "转台安装前拧紧轴心螺钉",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S22",
+        "joint": "Pan spline clamp",
+        "stage": "从轴承座侧面窗口拧紧",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S23",
+        "joint": "Tilt mounting ear",
+        "stage": "先固定Tilt舵机，尚未放入笼架模块",
+        "stem_OD_mm": 3.0867513459481293,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.5,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S24",
+        "joint": "Tilt mounting ear",
+        "stage": "先固定Tilt舵机，尚未放入笼架模块",
+        "stem_OD_mm": 3.0867513459481293,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.5,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S25",
+        "joint": "Tilt mounting ear",
+        "stage": "先固定Tilt舵机，尚未放入笼架模块",
+        "stem_OD_mm": 3.0867513459481293,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.5,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S26",
+        "joint": "Tilt mounting ear",
+        "stage": "先固定Tilt舵机，尚未放入笼架模块",
+        "stem_OD_mm": 3.0867513459481293,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.5,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S27",
+        "joint": "U-frame to Pan flange",
+        "stage": "笼架未装，从转台上方紧固",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S28",
+        "joint": "U-frame to Pan flange",
+        "stage": "笼架未装，从转台上方紧固",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S29",
+        "joint": "U-frame to Pan flange",
+        "stage": "笼架未装，从转台上方紧固",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S30",
+        "joint": "U-frame to Pan flange",
+        "stage": "笼架未装，从转台上方紧固",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S31",
+        "joint": "Left support to deck",
+        "stage": "相机取出，沿左支架外侧拧紧四颗螺钉",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S32",
+        "joint": "Left support to deck",
+        "stage": "相机取出，沿左支架外侧拧紧四颗螺钉",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S33",
+        "joint": "Left support to deck",
+        "stage": "相机取出，沿左支架外侧拧紧四颗螺钉",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S34",
+        "joint": "Left support to deck",
+        "stage": "相机取出，沿左支架外侧拧紧四颗螺钉",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S35",
+        "joint": "Left bearing retainer",
+        "stage": "从左侧紧固外圈压盖",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S36",
+        "joint": "Left bearing retainer",
+        "stage": "从左侧紧固外圈压盖",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S37",
+        "joint": "Left bearing retainer",
+        "stage": "从左侧紧固外圈压盖",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S38",
+        "joint": "Left bearing retainer",
+        "stage": "从左侧紧固外圈压盖",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S39",
+        "joint": "Left journal inner-race clamp",
+        "stage": "从左侧紧固内圈顶帽",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S40",
+        "joint": "HERO8 removable top clamp",
+        "stage": "放入相机后从顶面紧固",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S41",
+        "joint": "HERO8 removable top clamp",
+        "stage": "放入相机后从顶面紧固",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S42",
+        "joint": "Tilt flange to cradle",
+        "stage": "独立预装；夹紧套和舵机均未安装",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S43",
+        "joint": "Tilt flange to cradle",
+        "stage": "独立预装；夹紧套和舵机均未安装",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S44",
+        "joint": "Tilt flange to cradle",
+        "stage": "独立预装；夹紧套和舵机均未安装",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S45",
+        "joint": "Tilt flange to cradle",
+        "stage": "独立预装；夹紧套和舵机均未安装",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S46",
+        "joint": "Tilt hub OEM shaft retainer",
+        "stage": "相机取出，经笼架右侧中心工具孔紧固",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      },
+      {
+        "id": "S47",
+        "joint": "Tilt spline clamp",
+        "stage": "相机取出，从前/背侧接近夹紧螺钉",
+        "stem_OD_mm": 2.5094010767585035,
+        "stem_length_mm": 75.0,
+        "hex_key_mm": 2.0,
+        "clashes": [],
+        "pass": true
+      }
+    ],
+    "heat_insert_access_and_walls": [
+      {
+        "id": "I01",
+        "part": "01_Base",
+        "position": [
+          -37,
+          -35,
+          46
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I02",
+        "part": "01_Base",
+        "position": [
+          -37,
+          35,
+          46
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I03",
+        "part": "01_Base",
+        "position": [
+          37,
+          -35,
+          46
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I04",
+        "part": "01_Base",
+        "position": [
+          37,
+          35,
+          46
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I05",
+        "part": "01_Base",
+        "position": [
+          -38,
+          -22,
+          26.3
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I06",
+        "part": "01_Base",
+        "position": [
+          -38,
+          22,
+          26.3
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I07",
+        "part": "01_Base",
+        "position": [
+          -28,
+          -22,
+          26.3
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I08",
+        "part": "01_Base",
+        "position": [
+          -28,
+          22,
+          26.3
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I09",
+        "part": "02_Pan_Bearing_Carrier",
+        "position": [
+          -19,
+          -19,
+          56.0
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I10",
+        "part": "02_Pan_Bearing_Carrier",
+        "position": [
+          -19,
+          19,
+          56.0
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I11",
+        "part": "02_Pan_Bearing_Carrier",
+        "position": [
+          19,
+          -19,
+          56.0
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I12",
+        "part": "02_Pan_Bearing_Carrier",
+        "position": [
+          19,
+          19,
+          56.0
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I13",
+        "part": "02_Pan_Bearing_Carrier",
+        "position": [
+          27,
+          0,
+          79.0
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I14",
+        "part": "02_Pan_Bearing_Carrier",
+        "position": [
+          -27,
+          0,
+          79.0
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I15",
+        "part": "02_Pan_Bearing_Carrier",
+        "position": [
+          0,
+          27,
+          79.0
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I16",
+        "part": "02_Pan_Bearing_Carrier",
+        "position": [
+          0,
+          -27,
+          79.0
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I17",
+        "part": "05_Pan_25T_Hub",
+        "position": [
+          -23,
+          -17,
+          88.3
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I18",
+        "part": "05_Pan_25T_Hub",
+        "position": [
+          -23,
+          17,
+          88.3
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I19",
+        "part": "05_Pan_25T_Hub",
+        "position": [
+          23,
+          -17,
+          88.3
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I20",
+        "part": "05_Pan_25T_Hub",
+        "position": [
+          23,
+          17,
+          88.3
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I21",
+        "part": "06_Pan_Clamp_Collar",
+        "position": [
+          17,
+          -6.8,
+          49.75
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I22",
+        "part": "08_U_Frame",
+        "position": [
+          -62,
+          -23,
+          96.3
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I23",
+        "part": "08_U_Frame",
+        "position": [
+          -62,
+          23,
+          96.3
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I24",
+        "part": "08_U_Frame",
+        "position": [
+          -46,
+          -23,
+          96.3
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I25",
+        "part": "08_U_Frame",
+        "position": [
+          -46,
+          23,
+          96.3
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I26",
+        "part": "15_Removable_Left_Support",
+        "position": [
+          -56.0,
+          -14,
+          126.0
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I27",
+        "part": "15_Removable_Left_Support",
+        "position": [
+          -56.0,
+          -14,
+          154.0
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I28",
+        "part": "15_Removable_Left_Support",
+        "position": [
+          -56.0,
+          14,
+          126.0
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I29",
+        "part": "15_Removable_Left_Support",
+        "position": [
+          -56.0,
+          14,
+          154.0
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I30",
+        "part": "09_HERO8_Cradle",
+        "position": [
+          -57.4,
+          0,
+          140.0
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I31",
+        "part": "09_HERO8_Cradle",
+        "position": [
+          40.5,
+          -9.899494936611665,
+          130.10050506338834
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I32",
+        "part": "09_HERO8_Cradle",
+        "position": [
+          40.5,
+          -9.899494936611665,
+          149.89949493661166
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I33",
+        "part": "09_HERO8_Cradle",
+        "position": [
+          40.5,
+          9.899494936611665,
+          130.10050506338834
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I34",
+        "part": "09_HERO8_Cradle",
+        "position": [
+          40.5,
+          9.899494936611665,
+          149.89949493661166
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I35",
+        "part": "09_HERO8_Cradle",
+        "position": [
+          -20,
+          20.8,
+          165.8
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I36",
+        "part": "09_HERO8_Cradle",
+        "position": [
+          20,
+          20.8,
+          165.8
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      },
+      {
+        "id": "I37",
+        "part": "12_Tilt_Clamp_Collar",
+        "position": [
+          48.7,
+          -6.8,
+          157.0
+        ],
+        "stage": "在独立打印件上装铜套，后组装",
+        "nose_OD_mm": 8.0,
+        "housing_OD_mm": 16.0,
+        "clashes": [],
+        "radial_wall_checked_mm": 1.0,
+        "wall_missing_volume_mm3": 0,
+        "pass": true
+      }
+    ],
+    "coverage": "Declared tool envelopes; independent-part heat insertion. No real tool measured.",
+    "failures": []
+  },
+  "installation": {
+    "paths": [
+      {
+        "name": "Pan servo",
+        "description": "从上方插入；前安装桥和轴承模块未装",
+        "step_mm": 1.0,
+        "samples": 81,
+        "failures": [],
+        "pass": true
+      },
+      {
+        "name": "Front mounting bridge",
+        "description": "舵机先插入，再从左侧沿底面滑入前安装桥，承托左耳",
+        "step_mm": 0.5,
+        "samples": 101,
+        "failures": [],
+        "pass": true
+      },
+      {
+        "name": "Pan bearing module",
+        "description": "预装轴承模块从上方套入真实25T轴",
+        "step_mm": 1.0,
+        "samples": 51,
+        "failures": [],
+        "pass": true
+      },
+      {
+        "name": "Tilt servo",
+        "description": "从右侧穿入安装窗口，再锁M3耳槽螺钉",
+        "step_mm": 1.0,
+        "samples": 71,
+        "failures": [],
+        "pass": true
+      },
+      {
+        "name": "Tilt module",
+        "description": "左支架未装；笼架/轴套先预紧，再向右套入6mm真实花键",
+        "step_mm": 0.25,
+        "samples": 29,
+        "failures": [],
+        "pass": true
+      },
+      {
+        "name": "Left support slide",
+        "description": "不装左轴承；支架抬高2.2mm，从左侧沿轴线滑入",
+        "step_mm": 0.5,
+        "samples": 61,
+        "failures": [],
+        "pass": true
+      },
+      {
+        "name": "Left support lower",
+        "description": "下落使两个定位柱入槽，后拧四颗M2.5",
+        "step_mm": 0.1,
+        "samples": 23,
+        "failures": [],
+        "pass": true
+      },
+      {
+        "name": "Left bearing",
+        "description": "从左侧沿轴颈套入6200RS轴承",
+        "step_mm": 1.0,
+        "samples": 31,
+        "failures": [],
+        "pass": true
+      },
+      {
+        "name": "6200RS_Pan_lower",
+        "description": "下轴承从底部、上轴承从顶部独立入座；此时轴套/压盖未装",
+        "step_mm": 1.0,
+        "samples": 21,
+        "failures": [],
+        "pass": true
+      },
+      {
+        "name": "6200RS_Pan_upper",
+        "description": "下轴承从底部、上轴承从顶部独立入座；此时轴套/压盖未装",
+        "step_mm": 1.0,
+        "samples": 21,
+        "failures": [],
+        "pass": true
+      },
+      {
+        "name": "Pan inner spacer",
+        "description": "上轴承未装，3mm内圈隔套从上方放入",
+        "step_mm": 1.0,
+        "samples": 21,
+        "failures": [],
+        "pass": true
+      },
+      {
+        "name": "18A_Pan_Lower_Outer_Adapter",
+        "description": "先放轴承，再从对应外侧装1mm适配环；压盖尚未装",
+        "step_mm": 1.0,
+        "samples": 21,
+        "failures": [],
+        "pass": true
+      },
+      {
+        "name": "18B_Pan_Upper_Outer_Adapter",
+        "description": "先放轴承，再从对应外侧装1mm适配环；压盖尚未装",
+        "step_mm": 1.0,
+        "samples": 21,
+        "failures": [],
+        "pass": true
+      },
+      {
+        "name": "Pan shaft through closed bearings",
+        "description": "04先从05下端套好，再将05/04从上方穿入两颗闭合ID10轴承；17/06尚未装",
+        "step_mm": 0.5,
+        "samples": 81,
+        "failures": [],
+        "pass": true
+      },
+      {
+        "name": "Pan detachable 25T coupler",
+        "description": "从下方把17套到05的8AF键，不让OD20花键接头穿过ID10轴承",
+        "step_mm": 0.25,
+        "samples": 81,
+        "failures": [],
+        "pass": true
+      },
+      {
+        "name": "Reuse Pan clamp",
+        "description": "旧06从下方套到17外圆；不再把其大直径止口当作6200内圈接触面",
+        "step_mm": 0.25,
+        "samples": 81,
+        "failures": [],
+        "pass": true
+      },
+      {
+        "name": "Camera",
+        "description": "顶压条卸下，折叠GoPro安装脚，从上方放入",
+        "step_mm": 1.0,
+        "samples": 61,
+        "failures": [],
+        "pass": true
+      },
+      {
+        "name": "M3 nut 1",
+        "description": "安装舵机和运动模块前先放入M3防转螺母",
+        "step_mm": 0.5,
+        "samples": 81,
+        "failures": [],
+        "pass": true
+      },
+      {
+        "name": "M3 nut 2",
+        "description": "安装舵机和运动模块前先放入M3防转螺母",
+        "step_mm": 0.5,
+        "samples": 81,
+        "failures": [],
+        "pass": true
+      },
+      {
+        "name": "M3 nut 3",
+        "description": "安装舵机和运动模块前先放入M3防转螺母",
+        "step_mm": 0.5,
+        "samples": 81,
+        "failures": [],
+        "pass": true
+      },
+      {
+        "name": "M3 nut 4",
+        "description": "安装舵机和运动模块前先放入M3防转螺母",
+        "step_mm": 0.5,
+        "samples": 81,
+        "failures": [],
+        "pass": true
+      },
+      {
+        "name": "M3 nut 5",
+        "description": "安装舵机和运动模块前先放入M3防转螺母",
+        "step_mm": 1.0,
+        "samples": 21,
+        "failures": [],
+        "pass": true
+      },
+      {
+        "name": "M3 nut 6",
+        "description": "安装舵机和运动模块前先放入M3防转螺母",
+        "step_mm": 1.0,
+        "samples": 21,
+        "failures": [],
+        "pass": true
+      },
+      {
+        "name": "M3 nut 7",
+        "description": "安装舵机和运动模块前先放入M3防转螺母",
+        "step_mm": 1.0,
+        "samples": 21,
+        "failures": [],
+        "pass": true
+      },
+      {
+        "name": "M3 nut 8",
+        "description": "安装舵机和运动模块前先放入M3防转螺母",
+        "step_mm": 1.0,
+        "samples": 21,
+        "failures": [],
+        "pass": true
+      }
+    ],
+    "failures": [],
+    "coverage": "Prescribed assembly order and sampled rigid paths; foam compression, wires, real tools excluded."
+  },
+  "hardware_motion": {
+    "range_deg": [
+      -90,
+      90
+    ],
+    "step_deg": 5,
+    "failures": [],
+    "coverage": "Screws/washers/nuts/inserts/bearings against stationary printed parts and servo cases. Threads intentional."
+  },
+  "spline": {
+    "results": [
+      {
+        "axis": "Pan",
+        "nominal_overlap_mm3": 0.0,
+        "half_pitch_deg": 7.2,
+        "half_pitch_clash_mm3": 13.81520431154268,
+        "CAD_unclamped_contact_angles_deg": [
+          -0.875390625,
+          0.840234375
+        ],
+        "profile_teeth_source": 25,
+        "normal_allowance_mm": 0.06,
+        "full_tooth_length_bound_mm": 5.4,
+        "split_slot_width_mm": 0.6,
+        "note": "25T source profile with a split interrupting one sector. Not 25 equally loaded teeth; contact angles exclude clamp deformation/FDM error.",
+        "pass": true
+      },
+      {
+        "axis": "Tilt",
+        "nominal_overlap_mm3": 0.0,
+        "half_pitch_deg": 7.2,
+        "half_pitch_clash_mm3": 13.685037903267562,
+        "CAD_unclamped_contact_angles_deg": [
+          -0.840234375,
+          0.875390625
+        ],
+        "profile_teeth_source": 25,
+        "normal_allowance_mm": 0.06,
+        "full_tooth_length_bound_mm": 5.4,
+        "split_slot_width_mm": 0.6,
+        "note": "25T source profile with a split interrupting one sector. Not 25 equally loaded teeth; contact angles exclude clamp deformation/FDM error.",
+        "pass": true
+      }
+    ],
+    "pass": true,
+    "physical_fit_backlash_strength": "Not measured"
+  },
+  "print_pose": {
+    "parts": [
+      {
+        "part": "01_Base",
+        "print_file_id": "01_Base",
+        "bed_contact_area_mm2": 15401.162,
+        "downward_face_area_excluding_bed_mm2": 3152.574,
+        "print_rotation_deg": [
+          0,
+          0,
+          0
+        ],
+        "3mf_units": "millimeter",
+        "3mf_matches_STL_size": true,
+        "pass": true
+      },
+      {
+        "part": "16_Pan_Front_Mount_Bridge",
+        "print_file_id": "16_Pan_Front_Mount_Bridge",
+        "bed_contact_area_mm2": 1790.042,
+        "downward_face_area_excluding_bed_mm2": 289.388,
+        "print_rotation_deg": [
+          0,
+          0,
+          0
+        ],
+        "3mf_units": "millimeter",
+        "3mf_matches_STL_size": true,
+        "pass": true
+      },
+      {
+        "part": "02_Pan_Bearing_Carrier",
+        "print_file_id": "02_Pan_Bearing_Carrier",
+        "bed_contact_area_mm2": 3834.15,
+        "downward_face_area_excluding_bed_mm2": 3212.677,
+        "print_rotation_deg": [
+          180,
+          0,
+          0
+        ],
+        "3mf_units": "millimeter",
+        "3mf_matches_STL_size": true,
+        "pass": true
+      },
+      {
+        "part": "03_Pan_Lower_Cap",
+        "print_file_id": "03_Pan_Lower_Cap",
+        "bed_contact_area_mm2": 2687.786,
+        "downward_face_area_excluding_bed_mm2": 0.0,
+        "print_rotation_deg": [
+          180,
+          0,
+          0
+        ],
+        "3mf_units": "millimeter",
+        "3mf_matches_STL_size": true,
+        "pass": true
+      },
+      {
+        "part": "04_Pan_Upper_Cap",
+        "print_file_id": "04_Pan_Upper_Cap",
+        "bed_contact_area_mm2": 2687.786,
+        "downward_face_area_excluding_bed_mm2": 0.0,
+        "print_rotation_deg": [
+          0,
+          0,
+          0
+        ],
+        "3mf_units": "millimeter",
+        "3mf_matches_STL_size": true,
+        "pass": true
+      },
+      {
+        "part": "07_Pan_Inner_Spacer",
+        "print_file_id": "07_Pan_Inner_Spacer",
+        "bed_contact_area_mm2": 81.089,
+        "downward_face_area_excluding_bed_mm2": 0.0,
+        "print_rotation_deg": [
+          0,
+          0,
+          0
+        ],
+        "3mf_units": "millimeter",
+        "3mf_matches_STL_size": true,
+        "pass": true
+      },
+      {
+        "part": "05_Pan_25T_Hub",
+        "print_file_id": "05_Pan_25T_Hub",
+        "bed_contact_area_mm2": 3452.709,
+        "downward_face_area_excluding_bed_mm2": 24.613,
+        "print_rotation_deg": [
+          180,
+          0,
+          0
+        ],
+        "3mf_units": "millimeter",
+        "3mf_matches_STL_size": true,
+        "pass": true
+      },
+      {
+        "part": "06_Pan_Clamp_Collar",
+        "print_file_id": "06_Pan_Clamp_Collar",
+        "bed_contact_area_mm2": 390.327,
+        "downward_face_area_excluding_bed_mm2": 30.405,
+        "print_rotation_deg": [
+          0,
+          0,
+          0
+        ],
+        "3mf_units": "millimeter",
+        "3mf_matches_STL_size": true,
+        "pass": true
+      },
+      {
+        "part": "17_Pan_25T_Coupler",
+        "print_file_id": "17_Pan_25T_Coupler",
+        "bed_contact_area_mm2": 261.093,
+        "downward_face_area_excluding_bed_mm2": 34.419,
+        "print_rotation_deg": [
+          0,
+          0,
+          0
+        ],
+        "3mf_units": "millimeter",
+        "3mf_matches_STL_size": true,
+        "pass": true
+      },
+      {
+        "part": "08_U_Frame",
+        "print_file_id": "08_U_Frame",
+        "bed_contact_area_mm2": 9066.647,
+        "downward_face_area_excluding_bed_mm2": 210.608,
+        "print_rotation_deg": [
+          0,
+          0,
+          0
+        ],
+        "3mf_units": "millimeter",
+        "3mf_matches_STL_size": true,
+        "pass": true
+      },
+      {
+        "part": "15_Removable_Left_Support",
+        "print_file_id": "15_Removable_Left_Support",
+        "bed_contact_area_mm2": 336.0,
+        "downward_face_area_excluding_bed_mm2": 1854.153,
+        "print_rotation_deg": [
+          0,
+          -90,
+          0
+        ],
+        "3mf_units": "millimeter",
+        "3mf_matches_STL_size": true,
+        "pass": true
+      },
+      {
+        "part": "13_Left_Bearing_Cap",
+        "print_file_id": "13_Left_Bearing_Cap",
+        "bed_contact_area_mm2": 1348.569,
+        "downward_face_area_excluding_bed_mm2": 0.0,
+        "print_rotation_deg": [
+          0,
+          90,
+          0
+        ],
+        "3mf_units": "millimeter",
+        "3mf_matches_STL_size": true,
+        "pass": true
+      },
+      {
+        "part": "14_Left_Inner_Spacer",
+        "print_file_id": "14_Left_Inner_Spacer",
+        "bed_contact_area_mm2": 182.404,
+        "downward_face_area_excluding_bed_mm2": 0.0,
+        "print_rotation_deg": [
+          0,
+          -90,
+          0
+        ],
+        "3mf_units": "millimeter",
+        "3mf_matches_STL_size": true,
+        "pass": true
+      },
+      {
+        "part": "09_HERO8_Cradle",
+        "print_file_id": "09_HERO8_Cradle",
+        "bed_contact_area_mm2": 1052.071,
+        "downward_face_area_excluding_bed_mm2": 1367.674,
+        "print_rotation_deg": [
+          0,
+          90,
+          0
+        ],
+        "3mf_units": "millimeter",
+        "3mf_matches_STL_size": true,
+        "pass": true
+      },
+      {
+        "part": "10_HERO8_Top_Clamp",
+        "print_file_id": "10_HERO8_Top_Clamp",
+        "bed_contact_area_mm2": 1361.03,
+        "downward_face_area_excluding_bed_mm2": 0.0,
+        "print_rotation_deg": [
+          0,
+          0,
+          0
+        ],
+        "3mf_units": "millimeter",
+        "3mf_matches_STL_size": true,
+        "pass": true
+      },
+      {
+        "part": "11_Tilt_25T_Hub",
+        "print_file_id": "11_Tilt_25T_Hub",
+        "bed_contact_area_mm2": 1075.534,
+        "downward_face_area_excluding_bed_mm2": 24.613,
+        "print_rotation_deg": [
+          0,
+          -90,
+          0
+        ],
+        "3mf_units": "millimeter",
+        "3mf_matches_STL_size": true,
+        "pass": true
+      },
+      {
+        "part": "12_Tilt_Clamp_Collar",
+        "print_file_id": "12_Tilt_Clamp_Collar",
+        "bed_contact_area_mm2": 390.327,
+        "downward_face_area_excluding_bed_mm2": 30.405,
+        "print_rotation_deg": [
+          0,
+          -90,
+          0
+        ],
+        "3mf_units": "millimeter",
+        "3mf_matches_STL_size": true,
+        "pass": true
+      },
+      {
+        "part": "18A_Pan_Lower_Outer_Adapter",
+        "print_file_id": "18_6200RS_Outer_Ring_Adapter",
+        "bed_contact_area_mm2": 392.921,
+        "downward_face_area_excluding_bed_mm2": 0.0,
+        "print_rotation_deg": [
+          0,
+          0,
+          0
+        ],
+        "3mf_units": "millimeter",
+        "3mf_matches_STL_size": true,
+        "pass": true
+      },
+      {
+        "part": "18B_Pan_Upper_Outer_Adapter",
+        "print_file_id": "18_6200RS_Outer_Ring_Adapter",
+        "bed_contact_area_mm2": 392.921,
+        "downward_face_area_excluding_bed_mm2": 0.0,
+        "print_rotation_deg": [
+          0,
+          0,
+          0
+        ],
+        "3mf_units": "millimeter",
+        "3mf_matches_STL_size": true,
+        "pass": true
+      },
+      {
+        "part": "18C_Tilt_Outer_Adapter",
+        "print_file_id": "18_6200RS_Outer_Ring_Adapter",
+        "bed_contact_area_mm2": 392.921,
+        "downward_face_area_excluding_bed_mm2": 0.0,
+        "print_rotation_deg": [
+          0,
+          -90,
+          0
+        ],
+        "3mf_units": "millimeter",
+        "3mf_matches_STL_size": true,
+        "pass": true
+      }
+    ],
+    "pass": true,
+    "coverage": "Actual exported print poses, bed faces and 3MF dimensions. Downward faces may be bridges/supports; no slicer/G-code run."
+  },
+  "axial_stops": {
+    "results": [
+      {
+        "axis": "Pan",
+        "nominal_boss_clearance_mm": 0.3,
+        "attempted_seating_overtravel_mm": 0.1,
+        "shaft_tip_stop_interference_mm3": 3.1596718804875006,
+        "stationary_case_interference_mm3": 4.674673508529847e-10,
+        "pass": true
+      },
+      {
+        "axis": "Tilt",
+        "nominal_boss_clearance_mm": 0.3,
+        "attempted_seating_overtravel_mm": 0.1,
+        "shaft_tip_stop_interference_mm3": 3.15971970522164,
+        "stationary_case_interference_mm3": 4.674816089789147e-10,
+        "pass": true
+      }
+    ],
+    "left_retainer_to_journal_end_reserve_mm": 0.45,
+    "pass": true,
+    "coverage": "CAD positive shaft-tip stops engage before journal can rub stationary servo boss; real tightening and FDM still untested."
+  },
+  "bearing_interfaces": {
+    "results": [
+      {
+        "check": "Pan seat 1 full width",
+        "part": "02_Pan_Bearing_Carrier",
+        "design_value_mm": 30.1,
+        "unexpected_material_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "check": "Pan seat 1 1.98mm radial wall",
+        "part": "02_Pan_Bearing_Carrier",
+        "design_value_mm": 1.98,
+        "missing_material_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "check": "Pan seat 2 full width",
+        "part": "02_Pan_Bearing_Carrier",
+        "design_value_mm": 30.1,
+        "unexpected_material_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "check": "Pan seat 2 1.98mm radial wall",
+        "part": "02_Pan_Bearing_Carrier",
+        "design_value_mm": 1.98,
+        "missing_material_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "check": "Tilt seat full 9mm width",
+        "part": "15_Removable_Left_Support",
+        "design_value_mm": 30.1,
+        "unexpected_material_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "check": "Tilt seat 1.98mm radial wall",
+        "part": "15_Removable_Left_Support",
+        "design_value_mm": 1.98,
+        "missing_material_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "check": "Pan unslotted bearing journal",
+        "part": "05_Pan_25T_Hub",
+        "design_value_mm": 9.98,
+        "missing_material_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "check": "Pan 3mm inner-only spacer",
+        "part": "07_Pan_Inner_Spacer",
+        "design_value_mm": 3.0,
+        "missing_material_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "check": "Outer retainer rotating clearance",
+        "part": "18A_Pan_Lower_Outer_Adapter",
+        "design_value_mm": 25.6,
+        "unexpected_material_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "check": "Outer retainer rotating clearance",
+        "part": "18B_Pan_Upper_Outer_Adapter",
+        "design_value_mm": 25.6,
+        "unexpected_material_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "check": "Tilt outer retainer rotating clearance",
+        "part": "18C_Tilt_Outer_Adapter",
+        "design_value_mm": 25.6,
+        "unexpected_material_mm3": 0.0,
+        "pass": true
+      },
+      {
+        "check": "One shared outer-adapter print file, three instances",
+        "quantity": 3,
+        "pass": true
+      }
+    ],
+    "pass": true,
+    "units": "mm",
+    "coordinate_frame": "Exported assembly meshes, Z-up; Pan axis +Z; Tilt bearing insertion +X",
+    "method": "Manifold boolean void/material probes on exported float32 STL; 0.05mm3 rejection threshold; probes offset 0.01-0.02mm from nominal surfaces",
+    "limitations": "Local radial wall rings are not a global wall-thickness or strength certification. Actual unknown-brand ring/seal contact and FDM fits remain untested."
+  },
+  "pan_detachable_key": {
+    "male_AF_mm": 8.0,
+    "female_AF_mm": 8.12,
+    "engagement_mm": 4.450000000000003,
+    "nominal_clash_mm3": 0.0,
+    "half_pitch_clash_mm3": 13.17991140202755,
+    "CAD_unclamped_contact_angles_deg": [
+      -1.563720703125,
+      1.563720703125
+    ],
+    "pass": true,
+    "limitation": "New detachable keyed joint; axial bolt and clamp do not establish measured zero backlash or torque capacity. Physical trial is required."
+  },
+  "printed_static_and_motion_pass": true,
+  "axial_design": {
+    "pan_inner_stack_mm": 21.0,
+    "pan_nominal_endplay_mm": 0.15,
+    "pan_inner_spacer_length_mm": 3.0,
+    "Pan_inner_contact_OD_mm": 14.4,
+    "Pan_outer_retainer_ID_mm": 25.6,
+    "Tilt_inner_contact_OD_mm": 14.4,
+    "Tilt_outer_retainer_ID_mm": 25.6,
+    "note": "用夹紧套消除明显窜动，保留自由转动，不给轴承施加强预紧；未实测"
+  },
+  "physical_validation": "Not printed, not load tested. No rated stall-torque or precision claim.",
+  "pass": true
+}

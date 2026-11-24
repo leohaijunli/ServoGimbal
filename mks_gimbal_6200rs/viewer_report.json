@@ -1,0 +1,33 @@
+{
+  "offline": true,
+  "three_version": "0.128.0",
+  "embedded_GLB_sha256": "6745daac49f5aa4e96b90b632412bfa7f23f92db669e4ec8a8b34651a61ac7da",
+  "html_sha256": "86de40ce4c25242ed85f25d9601c497fbe4422d43a198965e20157df3d6a769a",
+  "sources": {
+    "GLTFLoader.js": "5c15967ba830918a9caea6338712c994c354bccd4edc4569bde411c3ec06a3e6",
+    "OrbitControls.js": "02bb4ade710f3e607329e37a21f098bc3ac70eb6e33daf8a65e79f4db785e7b2",
+    "three.min.js": "9274bbcec8d96168626c732b5d31c775aa8cfb7eaa0599bec0c175908a2c1ce2"
+  },
+  "browser_validation": "passed",
+  "browser_checks": {
+    "ready": true,
+    "printed_instances": 20,
+    "bearing_count": 3,
+    "bearing_outer_envelope_sizes_mm": {
+      "6200RS_Pan_lower": [30, 30, 9],
+      "6200RS_Pan_upper": [30, 30, 9],
+      "6200RS_Tilt_left": [9, 30, 30]
+    },
+    "base_size_mm": [170, 130, 46],
+    "left_cap_X_bounds_mm": [-59.00000280234963, -57.000002707354724],
+    "tested_pose_pairs_deg": [[0, 0], [90, 0], [-90, 0], [0, 90], [0, -90], [35, -25]],
+    "max_transform_error_mm": 1.5612511283791264e-14,
+    "transform_failures": [],
+    "explosion_error_mm": 0,
+    "angle_controls_disabled_during_explosion": true,
+    "reset_to_neutral": true,
+    "console_errors": 0,
+    "pass": true,
+    "limitations": "Browser outer-envelope/coordinate and UI transform checks only; not bore measurements, collision/strength certification or physical precision. CAD bore/contact checks are in assembly_checks.json."
+  }
+}

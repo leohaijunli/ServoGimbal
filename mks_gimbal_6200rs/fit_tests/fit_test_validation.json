@@ -1,0 +1,670 @@
+{
+  "reference_evidence_sha256": "44d91725a195d5e00698556b7f4276cd200143d5984c1d29a35633918d94c8ce",
+  "reference_servo_sha256": "3dca40dd31e5c1bf29e86be2464abcbf6cf38004febbc65977f5f2151b34853a",
+  "units": "mm",
+  "bearing_design": {
+    "product": "6200RS (user stock; brand and seal count not supplied)",
+    "nominal_size_mm": [
+      10.0,
+      30.0,
+      9.0
+    ],
+    "quantity": 3,
+    "allocation": {
+      "Pan": 2,
+      "Tilt": 1
+    },
+    "seat_D_mm": 30.1,
+    "journal_D_mm": 9.98,
+    "fit_type": "Nominal clearance; +0.10 mm seat and -0.02 mm journal are untested FDM starting values, not guaranteed fits",
+    "inner_contact_OD_mm": 14.4,
+    "outer_retainer_ID_mm": 25.6,
+    "Pan_bearing_start_Z_mm": [
+      57.0,
+      69.0
+    ],
+    "Pan_bearing_centre_span_mm": 12.0,
+    "Pan_inner_spacer_length_mm": 3.0,
+    "Pan_inner_stack_mm": 21.0,
+    "Pan_upper_inner_shoulder_Z_mm": 78.0,
+    "Pan_lower_inner_stop_Z_mm": 56.85,
+    "Pan_key_male_AF_mm": 8.0,
+    "Pan_key_female_AF_mm": 8.12,
+    "Pan_key_engagement_mm": 4.450000000000003,
+    "outer_adapter_print_file": "18_6200RS_Outer_Ring_Adapter",
+    "outer_adapter_quantity": 3,
+    "outer_adapter_size_mm": [
+      34.0,
+      25.6,
+      1.0
+    ],
+    "Tilt_bearing_faces_X_mm": [
+      -56.0,
+      -47.0
+    ],
+    "Tilt_support_thickness_mm": 12.0,
+    "Tilt_journal_end_X_mm": -57.4,
+    "Tilt_retainer_to_journal_end_reserve_mm": 0.45,
+    "single_bearing_decision": "Tilt has one external bearing and an opposite servo-supported end. Pan retains two separated bearings; no single-external-bearing Pan load rating is claimed.",
+    "reprint_policy": "Keep physical files 01,03,04,06,08,10,11,12,13,16. Reprint original 02,05,07,09,14,15; add 17 and three copies of one shared 18 file. Part 13 is reposed only."
+  },
+  "hardware_evidence_sha256": "1d65066950783c29a71aebba1ec0560f6966bff2d57051ac15a48aaf1364c2b4",
+  "physical_fit": "Not tested; nominal trial sizes are not guaranteed FDM tolerance",
+  "results": {
+    "T01_25T_socket_clearance_030um": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\fit_tests\\T01_25T_socket_clearance_030um.stl",
+      "vertex_count": 1387,
+      "face_count": 2774,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 2232.962 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 20.0 × 20.0 × 8.0 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "components": 1,
+      "size_mm": [
+        20.0,
+        20.0,
+        8.0
+      ],
+      "normal_clearance_mm": 0.03,
+      "nominal_fit_intersection_mm3": -1.548883635609306e-15,
+      "half_pitch_intersection_mm3": 17.131356498767513,
+      "full_profile_length_mm": 5.6,
+      "physical_fit": "not tested",
+      "validation_reuse": "Unchanged previous trial SHA256-verified; spline and insert specification unchanged",
+      "file_sha256": {
+        ".stl": "9a3e9d86c60b6482ce32987c3ed7886b774b2d18e5f0c8f13c34b13aa21ff876",
+        ".3mf": "1c60368d532dd4943dd69e921d578750a984b09c24d4def8b4a441980c546b31"
+      }
+    },
+    "T02_25T_socket_clearance_060um": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\fit_tests\\T02_25T_socket_clearance_060um.stl",
+      "vertex_count": 1528,
+      "face_count": 3056,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 2224.974 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 20.0 × 20.0 × 8.0 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "components": 1,
+      "size_mm": [
+        20.0,
+        20.0,
+        8.0
+      ],
+      "normal_clearance_mm": 0.06,
+      "nominal_fit_intersection_mm3": -2.2212097906244204e-16,
+      "half_pitch_intersection_mm3": 15.83133118615042,
+      "full_profile_length_mm": 5.6,
+      "physical_fit": "not tested",
+      "validation_reuse": "Unchanged previous trial SHA256-verified; spline and insert specification unchanged",
+      "file_sha256": {
+        ".stl": "543731d7af0bb8ce7d8cbbb850eb02621390819d684a2b8861c4eadf2d248ab5",
+        ".3mf": "a41feb62b4d2936e67543171c44f49935958aae6d797a0674cac0f945c468405"
+      }
+    },
+    "T03_25T_socket_clearance_100um": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\fit_tests\\T03_25T_socket_clearance_100um.stl",
+      "vertex_count": 1663,
+      "face_count": 3326,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 2214.270 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 20.0 × 20.0 × 8.0 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "components": 1,
+      "size_mm": [
+        20.0,
+        20.0,
+        8.0
+      ],
+      "normal_clearance_mm": 0.1,
+      "nominal_fit_intersection_mm3": 1.858659219236688e-15,
+      "half_pitch_intersection_mm3": 14.139859067857953,
+      "full_profile_length_mm": 5.6,
+      "physical_fit": "not tested",
+      "validation_reuse": "Unchanged previous trial SHA256-verified; spline and insert specification unchanged",
+      "file_sha256": {
+        ".stl": "369ddeb2c14e760beb2fd419a43d269b1546b4d3be903f4f6b4cb9940e689d83",
+        ".3mf": "7f366addab5c74d09069ada2c10b53f365d45eeb5a65255d52833c6342075675"
+      }
+    },
+    "T04_M2.5_RX_insert_holes_3.8_4.0_4.2": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\fit_tests\\T04_M2.5_RX_insert_holes_3.8_4.0_4.2.stl",
+      "vertex_count": 728,
+      "face_count": 1452,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 8083.665 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 52.0 × 20.0 × 8.0 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "components": 1,
+      "size_mm": [
+        52.0,
+        20.0,
+        8.0
+      ],
+      "insert": {
+        "product": "ruthex RX-M2.5x5.7",
+        "thread": "M2.5",
+        "knurl_OD_mm": 4.6,
+        "length_mm": 5.7,
+        "hole_sizes_left_to_right_mm": [
+          3.8,
+          4.0,
+          4.2
+        ],
+        "heat_installation": "not tested"
+      },
+      "validation_reuse": "Unchanged previous trial SHA256-verified; spline and insert specification unchanged",
+      "file_sha256": {
+        ".stl": "fcc399156ce85f25d462f5800accdcdd16854f8347fcb668da1649e62c49744a",
+        ".3mf": "0dd3ed497aa0b619a11502ecc07acd826efd2e98abc92213f883cd1a25a4eb3d"
+      }
+    },
+    "T05_6200RS_seat_D30.0": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\fit_tests\\T05_6200RS_seat_D30.0.stl",
+      "vertex_count": 512,
+      "face_count": 1024,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 4057.308 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 38.0 × 38.0 × 9.5 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "components": 1,
+      "size_mm": [
+        38.0,
+        38.0,
+        9.5
+      ],
+      "nominal_trial_seat_D_mm": 30.0,
+      "file_sha256": {
+        ".stl": "f75da018d7b1054eb575d048d12f8ed05a216e0d1a1f51ede01f1a87b01d0f95",
+        ".3mf": "ece762d4e1abcdbc2c1272b9216eace4e135cc98fabc240a33ff1529025cd5b9"
+      }
+    },
+    "T05_6200RS_seat_D30.1": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\fit_tests\\T05_6200RS_seat_D30.1.stl",
+      "vertex_count": 512,
+      "face_count": 1024,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 4012.484 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 38.0 × 38.0 × 9.5 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "components": 1,
+      "size_mm": [
+        38.0,
+        38.0,
+        9.5
+      ],
+      "nominal_trial_seat_D_mm": 30.1,
+      "file_sha256": {
+        ".stl": "45271b1ba2ffb7ebd911cb6f3e64246c8fe78479469d5bd5785852768c5cf464",
+        ".3mf": "e34cfc4eefb4dc6f6f6db47827adb617969cac325558fb0bb68db554c4204da6"
+      }
+    },
+    "T05_6200RS_seat_D30.2": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\fit_tests\\T05_6200RS_seat_D30.2.stl",
+      "vertex_count": 512,
+      "face_count": 1024,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 3967.510 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 38.0 × 38.0 × 9.5 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "components": 1,
+      "size_mm": [
+        38.0,
+        38.0,
+        9.5
+      ],
+      "nominal_trial_seat_D_mm": 30.2,
+      "file_sha256": {
+        ".stl": "240a0fb31f54a3599237b18f97ecccdfb6ccae1b5c77aa21a307b316d0142578",
+        ".3mf": "5d20c91e979618b8e0bf778cd1502ba7221c0a51189f2ae5dc389b3d11cdbba4"
+      }
+    },
+    "T06_6200RS_journal_D9.90": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\fit_tests\\T06_6200RS_journal_D9.90.stl",
+      "vertex_count": 512,
+      "face_count": 1020,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 1397.251 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 15.9 × 15.9 × 15.0 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "components": 1,
+      "size_mm": [
+        15.899999618530273,
+        15.899999618530273,
+        15.0
+      ],
+      "nominal_trial_journal_D_mm": 9.9,
+      "file_sha256": {
+        ".stl": "654fadc7e852d152f3d5fa97485b6c1f3e8ed7acffe056f6be560146ae5a6075",
+        ".3mf": "1b3e7ee595ddb2f1e18ac5b793aacc3bc02068df1820a50c7d6bf5d6fdd08ccd"
+      }
+    },
+    "T06_6200RS_journal_D9.98": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\fit_tests\\T06_6200RS_journal_D9.98.stl",
+      "vertex_count": 512,
+      "face_count": 1020,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 1417.487 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 16.0 × 16.0 × 15.0 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "components": 1,
+      "size_mm": [
+        15.979999542236328,
+        15.979999542236328,
+        15.0
+      ],
+      "nominal_trial_journal_D_mm": 9.98,
+      "file_sha256": {
+        ".stl": "bb260a480bad2f893b57dfc20b7cfe27673c7e3fa0581a236ac83672200e6ac2",
+        ".3mf": "f19dc2f861cbf8ab22af8b846e3783bea92fcbf561d7e8f11ddb6034ae19fdcf"
+      }
+    },
+    "T06_6200RS_journal_D10.00": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\fit_tests\\T06_6200RS_journal_D10.00.stl",
+      "vertex_count": 512,
+      "face_count": 1020,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 1422.570 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 16.0 × 16.0 × 15.0 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "components": 1,
+      "size_mm": [
+        16.0,
+        16.0,
+        15.0
+      ],
+      "nominal_trial_journal_D_mm": 10.0,
+      "file_sha256": {
+        ".stl": "e4badbbe269e9209f3941fca863222a9be9edba5dca569bf5197004271082758",
+        ".3mf": "7eea1ddfbf7944fd8e63dcc2864fc69b7b3037b97d0ee2a930c0877d3ef8a64b"
+      }
+    },
+    "T07_6200RS_inner_contact_D14.4": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\fit_tests\\T07_6200RS_inner_contact_D14.4.stl",
+      "vertex_count": 512,
+      "face_count": 1024,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 162.230 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 14.4 × 14.4 × 2.0 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "components": 1,
+      "size_mm": [
+        14.399999618530273,
+        14.399999618530273,
+        2.0
+      ],
+      "use": "Check contact on the corresponding steel ring, not the seal; not a load test",
+      "file_sha256": {
+        ".stl": "bcf39747adaa360bef32d6c9e7d831e766be07b07861e3095ef23d6c72a67092",
+        ".3mf": "d09e9dd27ee778f193349aecf3212aa1f9b2df18d6824e6ce308938094e86296"
+      }
+    },
+    "T08_6200RS_outer_retainer_ID25.6": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\fit_tests\\T08_6200RS_outer_retainer_ID25.6.stl",
+      "vertex_count": 512,
+      "face_count": 1024,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 1238.295 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 38.0 × 38.0 × 2.0 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "components": 1,
+      "size_mm": [
+        38.0,
+        38.0,
+        2.0
+      ],
+      "use": "Check contact on the corresponding steel ring, not the seal; not a load test",
+      "file_sha256": {
+        ".stl": "b6e78915d61a0185df6cd64da66f6d2e3f17cb06afe36490a5727876e62896a2",
+        ".3mf": "520790829ccd22c595c4f1127ff2441dae357f306d2793b68198dcb5d00539d7"
+      }
+    }
+  }
+}

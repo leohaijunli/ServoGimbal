@@ -1,0 +1,60 @@
+SKF sheet text decoded from its embedded Unicode CMap.
+6200-2RSH
+Radial internal clearance,
+Matched bearing pairs, Stainless steel
+d < 10 mm, Other bearings
+DIMENSIONS 
+d
+10 mm
+D
+30 mm
+B
+9 mm
+d
+2
+≈ 15.07 mm
+D
+2
+≈ 24.72 mm
+r
+1,2
+min. 0.6 mm
+d
+a
+min. 14.2 mm
+d
+a
+max. 15 mm
+D
+a
+max. 25.8 mm
+r
+a
+max. 0.6 mm
+CALCULATION DATA 
+C
+5.4 kN
+C
+0
+2.36 kN
+P
+u
+0.1 kN
+Limiting speed
+17000 r/min
+k
+r
+0.025
+f
+0
+13
+MASS 
+Mass bearing
+0.032 kg
+bearings
+ball bearings
+ball bearings
+Temperature limits
+Permissible speed
+Selecting internal clearance
+prevent it

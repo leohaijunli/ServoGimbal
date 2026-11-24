@@ -1,0 +1,250 @@
+{
+  "design_version": "MKS-6200RS-MINREPRINT-LW1-prototype-20261124",
+  "units": "mm",
+  "verified_at_UTC": "2026-11-24T22:49:38.294465+00:00",
+  "build_manifest_sha256": "815cb5684f44a35024c214a8c107438b05c19ccd4c6f27de24eea61f7111bb8a",
+  "assembly_checks_sha256": "9e52c5f68e1f7405a464991938405ee7aceef1ef277a687abd7686f327c24174",
+  "original_files_checked": 191,
+  "original_files_changed": [],
+  "original_print_files_reused": [
+    "01_Base",
+    "03_Pan_Lower_Cap",
+    "04_Pan_Upper_Cap",
+    "06_Pan_Clamp_Collar",
+    "08_U_Frame",
+    "10_HERO8_Top_Clamp",
+    "11_Tilt_25T_Hub",
+    "12_Tilt_Clamp_Collar",
+    "13_Left_Bearing_Cap",
+    "16_Pan_Front_Mount_Bridge"
+  ],
+  "original_print_files_to_reprint": [
+    "02_Pan_Bearing_Carrier",
+    "05_Pan_25T_Hub",
+    "07_Pan_Inner_Spacer",
+    "09_HERO8_Cradle",
+    "14_Left_Inner_Spacer",
+    "15_Removable_Left_Support"
+  ],
+  "additional_print_files": {
+    "17_Pan_25T_Coupler": 1,
+    "18_6200RS_Outer_Ring_Adapter": 3
+  },
+  "original_file_hash_comparison": {
+    "01_Base": {
+      "stl": {
+        "baseline_sha256": "128a24801124cdbeee55066661bdb3ac27b47f5ab2cdc965df4dcf16f9a06a23",
+        "current_sha256": "128a24801124cdbeee55066661bdb3ac27b47f5ab2cdc965df4dcf16f9a06a23",
+        "byte_identical": true
+      },
+      "3mf": {
+        "baseline_sha256": "f70b91d09c58db2368647c2962c21979952e32562044de9221a2c05796adba4a",
+        "current_sha256": "f70b91d09c58db2368647c2962c21979952e32562044de9221a2c05796adba4a",
+        "byte_identical": true
+      }
+    },
+    "03_Pan_Lower_Cap": {
+      "stl": {
+        "baseline_sha256": "bab14824cf12ce3c8b0497f3240985f7ea09974c8ca85a487c127087c57e8383",
+        "current_sha256": "bab14824cf12ce3c8b0497f3240985f7ea09974c8ca85a487c127087c57e8383",
+        "byte_identical": true
+      },
+      "3mf": {
+        "baseline_sha256": "8cbdb65e2fd788f8f2b0f8f06859f62ea6199feae3c6e43a407f3b7754c65279",
+        "current_sha256": "8cbdb65e2fd788f8f2b0f8f06859f62ea6199feae3c6e43a407f3b7754c65279",
+        "byte_identical": true
+      }
+    },
+    "04_Pan_Upper_Cap": {
+      "stl": {
+        "baseline_sha256": "2369e5846a8f36e80f8fad7d839acb37dceb602df19e65e1ab958ab346ab5a4d",
+        "current_sha256": "2369e5846a8f36e80f8fad7d839acb37dceb602df19e65e1ab958ab346ab5a4d",
+        "byte_identical": true
+      },
+      "3mf": {
+        "baseline_sha256": "1570064e4a65799d5110a2fb091a37f137a7f9bb833edaf24398693dcd4ba288",
+        "current_sha256": "1570064e4a65799d5110a2fb091a37f137a7f9bb833edaf24398693dcd4ba288",
+        "byte_identical": true
+      }
+    },
+    "06_Pan_Clamp_Collar": {
+      "stl": {
+        "baseline_sha256": "72a7d15a5e6686f0b51e0ecf8d8b43c90aa7f9909a5e8d34ecdbaf09037da09e",
+        "current_sha256": "72a7d15a5e6686f0b51e0ecf8d8b43c90aa7f9909a5e8d34ecdbaf09037da09e",
+        "byte_identical": true
+      },
+      "3mf": {
+        "baseline_sha256": "e62c5eb885eb9ed5289a3aaa5103fa6bc687d4f5af64eeeb948ebe4deb11ce83",
+        "current_sha256": "e62c5eb885eb9ed5289a3aaa5103fa6bc687d4f5af64eeeb948ebe4deb11ce83",
+        "byte_identical": true
+      }
+    },
+    "08_U_Frame": {
+      "stl": {
+        "baseline_sha256": "59d91a62ffeac6efffc3720c0e4ecaffb2d6e99dda11de3e49ea65b835229410",
+        "current_sha256": "59d91a62ffeac6efffc3720c0e4ecaffb2d6e99dda11de3e49ea65b835229410",
+        "byte_identical": true
+      },
+      "3mf": {
+        "baseline_sha256": "f5b5e06b9a8a8d3111a04acf91187267f42c7b5ec3f0fa989137bab13f7a55ee",
+        "current_sha256": "f5b5e06b9a8a8d3111a04acf91187267f42c7b5ec3f0fa989137bab13f7a55ee",
+        "byte_identical": true
+      }
+    },
+    "10_HERO8_Top_Clamp": {
+      "stl": {
+        "baseline_sha256": "52c771f2e9e92819aa62e610acdd0a8c613b414772f2fc1ca9d746215a2a9220",
+        "current_sha256": "52c771f2e9e92819aa62e610acdd0a8c613b414772f2fc1ca9d746215a2a9220",
+        "byte_identical": true
+      },
+      "3mf": {
+        "baseline_sha256": "7159c723592729674140f169b8e9e7fb3020a55d7ef683cae3e63241861448ac",
+        "current_sha256": "7159c723592729674140f169b8e9e7fb3020a55d7ef683cae3e63241861448ac",
+        "byte_identical": true
+      }
+    },
+    "11_Tilt_25T_Hub": {
+      "stl": {
+        "baseline_sha256": "f1ab5321fd64fa3afaa87773e7a1932d9741cac2e27ddc388416522366e00b56",
+        "current_sha256": "f1ab5321fd64fa3afaa87773e7a1932d9741cac2e27ddc388416522366e00b56",
+        "byte_identical": true
+      },
+      "3mf": {
+        "baseline_sha256": "9ca3dcc4c412dcb349179127e0f87f247edb07a92193521729b7ac7e924bf38a",
+        "current_sha256": "9ca3dcc4c412dcb349179127e0f87f247edb07a92193521729b7ac7e924bf38a",
+        "byte_identical": true
+      }
+    },
+    "12_Tilt_Clamp_Collar": {
+      "stl": {
+        "baseline_sha256": "5670b14c9101e81c14b335ce0f9a4a3d4f99847854eaddb4cbf91e8cecdb316d",
+        "current_sha256": "5670b14c9101e81c14b335ce0f9a4a3d4f99847854eaddb4cbf91e8cecdb316d",
+        "byte_identical": true
+      },
+      "3mf": {
+        "baseline_sha256": "4c0e824bc3f47eccca0e08c1a55822555e2d8fab04dde8a570f73ab8ca04e967",
+        "current_sha256": "4c0e824bc3f47eccca0e08c1a55822555e2d8fab04dde8a570f73ab8ca04e967",
+        "byte_identical": true
+      }
+    },
+    "13_Left_Bearing_Cap": {
+      "stl": {
+        "baseline_sha256": "6f009dca41ef22fc5db5fc4c0b75c2c7bc932a73e5d313741a133897443b1e88",
+        "current_sha256": "6f009dca41ef22fc5db5fc4c0b75c2c7bc932a73e5d313741a133897443b1e88",
+        "byte_identical": true
+      },
+      "3mf": {
+        "baseline_sha256": "d55f92d0b8bfc876ce628df6e2c3bec26a97a94f05232d3ea1922885eb9abfe3",
+        "current_sha256": "d55f92d0b8bfc876ce628df6e2c3bec26a97a94f05232d3ea1922885eb9abfe3",
+        "byte_identical": true
+      }
+    },
+    "16_Pan_Front_Mount_Bridge": {
+      "stl": {
+        "baseline_sha256": "823063903690b076324c31dffbec4fca7b9092a0ba4244ed886ed51c2188c535",
+        "current_sha256": "823063903690b076324c31dffbec4fca7b9092a0ba4244ed886ed51c2188c535",
+        "byte_identical": true
+      },
+      "3mf": {
+        "baseline_sha256": "ddd1d71fa50cb9a8a1c0afd337edd9c5cea7f4f93c7d900d5b1509818f70dbcc",
+        "current_sha256": "ddd1d71fa50cb9a8a1c0afd337edd9c5cea7f4f93c7d900d5b1509818f70dbcc",
+        "byte_identical": true
+      }
+    },
+    "02_Pan_Bearing_Carrier": {
+      "stl": {
+        "baseline_sha256": "f85dfee0df6899117aa097cfdde785dad129644703d43758a066cdecb14ac187",
+        "current_sha256": "cec8189cbf7daab409cb3cbc8ca357d7be957ef19852a720236679b9f3de8ce6",
+        "byte_identical": false
+      },
+      "3mf": {
+        "baseline_sha256": "9f48b2ab1fe4648740eb1d02de37b8335655b2436011ae72d5cd652d6be3409d",
+        "current_sha256": "37bd9b120a8aabaf74eef9f406f41dd61dd9115d7e8e59d00b41a721888e04bd",
+        "byte_identical": false
+      }
+    },
+    "05_Pan_25T_Hub": {
+      "stl": {
+        "baseline_sha256": "35c88d00d9f6df891ac458045f15ff7e8b084688a5df8216cddad373638ef25a",
+        "current_sha256": "32d0d9f605742009ad5d93a88b1a67d4fd77b85a39f39d1d17b56bdee9b9a6b0",
+        "byte_identical": false
+      },
+      "3mf": {
+        "baseline_sha256": "98e53f5f3a4f4ef542bf9dea186a5581d8ded21c8323cf33e90a47f5ca296590",
+        "current_sha256": "cf80965af47cda4a07473af53886dbae75e90354eccf2efb1b95c8dad0f003cb",
+        "byte_identical": false
+      }
+    },
+    "07_Pan_Inner_Spacer": {
+      "stl": {
+        "baseline_sha256": "a068806fd2222765c149ab25f0a09f64877e12bec1b4d55798f94548c37c169a",
+        "current_sha256": "fa74ba83781a2fab5576ee9ddfea860d8c8a20b61c28577264496894c590b56f",
+        "byte_identical": false
+      },
+      "3mf": {
+        "baseline_sha256": "9fdf2bf67ef0adfc96c277c6cf1b39a51c4578e007dfac73581fb35106244609",
+        "current_sha256": "b70a13687b5ec7bbd9aa5e28f85522c603ad30adc5ed6777d8acaeec436a499d",
+        "byte_identical": false
+      }
+    },
+    "09_HERO8_Cradle": {
+      "stl": {
+        "baseline_sha256": "1da95688f9b157b0ec3a5b51cfcc5614b5b07a40a66a1ff3927497f8a55084b6",
+        "current_sha256": "1a0fc5c438f8d8128c675f8ee5ec7441cde7c4b2a6c8871f0ea5cca4daa3456d",
+        "byte_identical": false
+      },
+      "3mf": {
+        "baseline_sha256": "bc02010eca1719b82a11dc31ff22626f46eab0956519d69205d79d05570170eb",
+        "current_sha256": "30642bcf26e509c480d5bdc2d30d8a9d7af3ec25ea41969412d83c51030fcf02",
+        "byte_identical": false
+      }
+    },
+    "14_Left_Inner_Spacer": {
+      "stl": {
+        "baseline_sha256": "63729cedc6cbe13c83643d9c72c5a68741ba73df399c377e777dac503b9a0e9b",
+        "current_sha256": "540efae0d1432dcb7aabef4cb8e54361b84bca6df36d6615736aadc8bc66c115",
+        "byte_identical": false
+      },
+      "3mf": {
+        "baseline_sha256": "be77351dc0e8a89e1909c2e630e02dd19c175792273c5795e9b083ce241e835e",
+        "current_sha256": "11934f727278cbc5805143c7faeb3d0a44f0700c223df6c200d5b787b2cbe952",
+        "byte_identical": false
+      }
+    },
+    "15_Removable_Left_Support": {
+      "stl": {
+        "baseline_sha256": "6712afe821a4bbabd5cfdf7c12bd553ca564082335ae9f06b13494ced7af4e77",
+        "current_sha256": "c7f166f9ce75561e14951dd68ddf0306912194a3eb21a3b7c1bc37a39eece614",
+        "byte_identical": false
+      },
+      "3mf": {
+        "baseline_sha256": "43cc90ce2d2ce8229d9308728681b56bbdbd205847a93e1757e12b9c9f82a5b4",
+        "current_sha256": "184f86f44c8d364f82c9e4675c84f892e624725af91f9f8606f90080aa462952",
+        "byte_identical": false
+      }
+    }
+  },
+  "reposed_only": {
+    "13_Left_Bearing_Cap": {
+      "translation_mm": [
+        -5,
+        0,
+        0
+      ],
+      "print_files_byte_identical": true
+    }
+  },
+  "unique_files_in_reprint_kit": 8,
+  "new_printed_pieces": 10,
+  "full_unique_print_files": 18,
+  "full_printed_pieces": 20,
+  "all_present_bearings": "6200RS 10x30x9; Pan 2, Tilt 1",
+  "full_model_solid_volume_mm3": 619410.9065569441,
+  "reprint_solid_volume_mm3": 214600.67815699812,
+  "solid_volume_avoided_vs_full_reprint_percent": 65.35406853749525,
+  "volume_note": "Actual exported CAD solid volumes, not slicer material/time estimates; supports, infill, purge and scrap excluded",
+  "validation": "Manifold mesh, local bearing interfaces, fasteners/tools, assembly routes and independent +/-90deg 5deg motion samples passed",
+  "physical_validation": "Not printed or load/precision tested. Unknown-brand seal contact, keyed-joint backlash, stiffness and lifetime remain unverified.",
+  "tradeoffs": "Pan centre spacing 16->12 mm; added detachable 8AF joint and three 1mm outer-ring adapters. No unchanged-stiffness or zero-backlash claim.",
+  "delivery_directory": "\\\\Artemis\\Users\\HLi\\Downloads\\seeker\\mks_gimbal_6200rs"
+}

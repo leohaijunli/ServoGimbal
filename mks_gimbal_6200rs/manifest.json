@@ -1,0 +1,3559 @@
+{
+  "units": "mm",
+  "design_version": "MKS-6200RS-MINREPRINT-LW1-prototype-20261124",
+  "go_pro": {
+    "model": "HERO8 Black",
+    "size_mm": [
+      66.3,
+      48.6,
+      28.4
+    ],
+    "source": "https://community.gopro.com/s/article/HERO8-Black-Camera-Size-and-Weight",
+    "centre": [
+      0,
+      0,
+      140.0
+    ]
+  },
+  "servo_source": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\reference\\MKS-X8-HBL388.stl",
+  "servo_sha256": "5cf0fc2613ed429b833812b36cc5394e5df93e6f865ef1aca91f640726b70aea",
+  "servo_placements": {
+    "MKS_Pan": {
+      "rotation_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "translation": [
+        10.5,
+        0,
+        25.25
+      ],
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        18
+      ]
+    },
+    "MKS_Tilt": {
+      "rotation_matrix": [
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "translation": [
+        73.4,
+        0,
+        150.5
+      ],
+      "group": "pan",
+      "explode_mm": [
+        60,
+        0,
+        95
+      ]
+    }
+  },
+  "printed_parts": {
+    "01_Base": {
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        0
+      ],
+      "category": "printed",
+      "material": "PETG / PA",
+      "print": true
+    },
+    "16_Pan_Front_Mount_Bridge": {
+      "group": "fixed",
+      "explode_mm": [
+        -45,
+        0,
+        20
+      ],
+      "category": "printed",
+      "material": "PETG / PA",
+      "print": true
+    },
+    "02_Pan_Bearing_Carrier": {
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        40
+      ],
+      "category": "printed",
+      "material": "PETG / PA",
+      "print": true
+    },
+    "03_Pan_Lower_Cap": {
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        28
+      ],
+      "category": "printed",
+      "material": "PETG / PA",
+      "print": true
+    },
+    "04_Pan_Upper_Cap": {
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        60
+      ],
+      "category": "printed",
+      "material": "PETG / PA",
+      "print": true
+    },
+    "07_Pan_Inner_Spacer": {
+      "group": "pan",
+      "explode_mm": [
+        0,
+        0,
+        50
+      ],
+      "category": "printed",
+      "material": "PETG / PA",
+      "print": true
+    },
+    "05_Pan_25T_Hub": {
+      "group": "pan",
+      "explode_mm": [
+        0,
+        0,
+        68
+      ],
+      "category": "printed",
+      "material": "PETG / PA",
+      "print": true
+    },
+    "06_Pan_Clamp_Collar": {
+      "group": "pan",
+      "explode_mm": [
+        28,
+        0,
+        38
+      ],
+      "category": "printed",
+      "material": "PETG / PA",
+      "print": true
+    },
+    "17_Pan_25T_Coupler": {
+      "group": "pan",
+      "explode_mm": [
+        0,
+        0,
+        28
+      ],
+      "category": "printed",
+      "material": "PETG / PA",
+      "print": true
+    },
+    "08_U_Frame": {
+      "group": "pan",
+      "explode_mm": [
+        0,
+        0,
+        90
+      ],
+      "category": "printed",
+      "material": "PETG / PA",
+      "print": true
+    },
+    "15_Removable_Left_Support": {
+      "group": "pan",
+      "explode_mm": [
+        -32,
+        0,
+        90
+      ],
+      "category": "printed",
+      "material": "PETG / PA",
+      "print": true
+    },
+    "13_Left_Bearing_Cap": {
+      "group": "pan",
+      "explode_mm": [
+        -32,
+        0,
+        90
+      ],
+      "category": "printed",
+      "material": "PETG / PA",
+      "print": true,
+      "reuse_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    "14_Left_Inner_Spacer": {
+      "group": "tilt",
+      "explode_mm": [
+        -24,
+        0,
+        120
+      ],
+      "category": "printed",
+      "material": "PETG / PA",
+      "print": true
+    },
+    "09_HERO8_Cradle": {
+      "group": "tilt",
+      "explode_mm": [
+        0,
+        0,
+        145
+      ],
+      "category": "printed",
+      "material": "PETG / PA",
+      "print": true
+    },
+    "10_HERO8_Top_Clamp": {
+      "group": "tilt",
+      "explode_mm": [
+        0,
+        0,
+        235
+      ],
+      "category": "printed",
+      "material": "PETG / PA",
+      "print": true
+    },
+    "11_Tilt_25T_Hub": {
+      "group": "tilt",
+      "explode_mm": [
+        28,
+        0,
+        145
+      ],
+      "category": "printed",
+      "material": "PETG / PA",
+      "print": true
+    },
+    "12_Tilt_Clamp_Collar": {
+      "group": "tilt",
+      "explode_mm": [
+        42,
+        0,
+        145
+      ],
+      "category": "printed",
+      "material": "PETG / PA",
+      "print": true
+    },
+    "18A_Pan_Lower_Outer_Adapter": {
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        28
+      ],
+      "category": "printed",
+      "material": "PETG / PA",
+      "print": true,
+      "print_file_id": "18_6200RS_Outer_Ring_Adapter"
+    },
+    "18B_Pan_Upper_Outer_Adapter": {
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        60
+      ],
+      "category": "printed",
+      "material": "PETG / PA",
+      "print": true,
+      "print_file_id": "18_6200RS_Outer_Ring_Adapter"
+    },
+    "18C_Tilt_Outer_Adapter": {
+      "group": "pan",
+      "explode_mm": [
+        -32,
+        0,
+        90
+      ],
+      "category": "printed",
+      "material": "PETG / PA",
+      "print": true,
+      "print_file_id": "18_6200RS_Outer_Ring_Adapter"
+    }
+  },
+  "quality": {
+    "01_Base": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\output\\stl\\01_Base.stl",
+      "vertex_count": 7390,
+      "face_count": 14968,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 270097.300 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 170.0 × 130.0 × 46.0 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "islands": 1,
+      "size_mm": [
+        170.0,
+        130.0,
+        46.0
+      ],
+      "print_rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "min_z_mm": 0.0,
+      "material_volume_mm3": 270097.3051842157,
+      "file_sha256": {
+        "stl": "128a24801124cdbeee55066661bdb3ac27b47f5ab2cdc965df4dcf16f9a06a23",
+        "assembly_meshes": "128a24801124cdbeee55066661bdb3ac27b47f5ab2cdc965df4dcf16f9a06a23",
+        "3mf": "f70b91d09c58db2368647c2962c21979952e32562044de9221a2c05796adba4a"
+      },
+      "validation_reuse": "Unchanged baseline files SHA256-checked before reuse"
+    },
+    "16_Pan_Front_Mount_Bridge": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\output\\stl\\16_Pan_Front_Mount_Bridge.stl",
+      "vertex_count": 2358,
+      "face_count": 4744,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 13417.240 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 31.6 × 58.0 × 8.0 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "islands": 1,
+      "size_mm": [
+        31.600000381469727,
+        58.0,
+        8.0
+      ],
+      "print_rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "min_z_mm": 0.0,
+      "material_volume_mm3": 13417.23970130501,
+      "file_sha256": {
+        "stl": "823063903690b076324c31dffbec4fca7b9092a0ba4244ed886ed51c2188c535",
+        "assembly_meshes": "6c5a5250847e6c8034278999e3c70b697eb8ca2388fe081c8e3e55fd200092d1",
+        "3mf": "ddd1d71fa50cb9a8a1c0afd337edd9c5cea7f4f93c7d900d5b1509818f70dbcc"
+      },
+      "validation_reuse": "Unchanged baseline files SHA256-checked before reuse"
+    },
+    "02_Pan_Bearing_Carrier": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\output\\stl\\02_Pan_Bearing_Carrier.stl",
+      "vertex_count": 7949,
+      "face_count": 15918,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 122414.783 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 90.0 × 84.0 × 33.0 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "islands": 1,
+      "size_mm": [
+        90.0,
+        84.0,
+        33.0
+      ],
+      "print_rotation_deg": [
+        180,
+        0,
+        0
+      ],
+      "min_z_mm": 0.0,
+      "material_volume_mm3": 122414.77973518311,
+      "print_file_id": "02_Pan_Bearing_Carrier",
+      "file_sha256": {
+        "stl": "cec8189cbf7daab409cb3cbc8ca357d7be957ef19852a720236679b9f3de8ce6",
+        "assembly_meshes": "f87522914b47e68d4a8426caac7b250346a3258de56959ddcd2d34cc525dd8c7",
+        "3mf": "37bd9b120a8aabaf74eef9f406f41dd61dd9115d7e8e59d00b41a721888e04bd"
+      },
+      "validation_reuse": "Unchanged baseline files SHA256-checked before reuse"
+    },
+    "03_Pan_Lower_Cap": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\output\\stl\\03_Pan_Lower_Cap.stl",
+      "vertex_count": 1480,
+      "face_count": 2976,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 8657.511 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 66.0 × 66.0 × 4.0 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "islands": 1,
+      "size_mm": [
+        66.0,
+        66.0,
+        4.0
+      ],
+      "print_rotation_deg": [
+        180,
+        0,
+        0
+      ],
+      "min_z_mm": 0.0,
+      "material_volume_mm3": 8657.51162895047,
+      "file_sha256": {
+        "stl": "bab14824cf12ce3c8b0497f3240985f7ea09974c8ca85a487c127087c57e8383",
+        "assembly_meshes": "3f6f6feb3f7b617671fa6202c85fbeea34dc2179867959adb635e098bb079f25",
+        "3mf": "8cbdb65e2fd788f8f2b0f8f06859f62ea6199feae3c6e43a407f3b7754c65279"
+      },
+      "validation_reuse": "Unchanged baseline files SHA256-checked before reuse"
+    },
+    "04_Pan_Upper_Cap": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\output\\stl\\04_Pan_Upper_Cap.stl",
+      "vertex_count": 1920,
+      "face_count": 3856,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 7912.669 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 66.0 × 66.0 × 3.0 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "islands": 1,
+      "size_mm": [
+        66.0,
+        66.0,
+        3.0
+      ],
+      "print_rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "min_z_mm": 0.0,
+      "material_volume_mm3": 7912.669399775568,
+      "file_sha256": {
+        "stl": "2369e5846a8f36e80f8fad7d839acb37dceb602df19e65e1ab958ab346ab5a4d",
+        "assembly_meshes": "25b6224e5882e978a8a43e0c20dff1123367d23a010c9ebadbafaf9ac42e0e31",
+        "3mf": "1570064e4a65799d5110a2fb091a37f137a7f9bb833edaf24398693dcd4ba288"
+      },
+      "validation_reuse": "Unchanged baseline files SHA256-checked before reuse"
+    },
+    "07_Pan_Inner_Spacer": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\output\\stl\\07_Pan_Inner_Spacer.stl",
+      "vertex_count": 384,
+      "face_count": 768,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 243.268 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 14.4 × 14.4 × 3.0 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "islands": 1,
+      "size_mm": [
+        14.399999618530273,
+        14.399999618530273,
+        3.0
+      ],
+      "print_rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "min_z_mm": 0.0,
+      "material_volume_mm3": 243.2682472341018,
+      "print_file_id": "07_Pan_Inner_Spacer",
+      "file_sha256": {
+        "stl": "fa74ba83781a2fab5576ee9ddfea860d8c8a20b61c28577264496894c590b56f",
+        "assembly_meshes": "16151ae51f1c2a84acd1148b405a3e7f35a068af6d7a9200ed764a68ffe3c715",
+        "3mf": "b70a13687b5ec7bbd9aa5e28f85522c603ad30adc5ed6777d8acaeec436a499d"
+      },
+      "validation_reuse": "Unchanged baseline files SHA256-checked before reuse"
+    },
+    "05_Pan_25T_Hub": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\output\\stl\\05_Pan_25T_Hub.stl",
+      "vertex_count": 3098,
+      "face_count": 6228,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 23222.605 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 68.0 × 68.0 × 35.9 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "islands": 1,
+      "size_mm": [
+        68.0,
+        68.0,
+        35.900001525878906
+      ],
+      "print_rotation_deg": [
+        180,
+        0,
+        0
+      ],
+      "min_z_mm": 0.0,
+      "material_volume_mm3": 23222.604515560542,
+      "print_file_id": "05_Pan_25T_Hub",
+      "file_sha256": {
+        "stl": "32d0d9f605742009ad5d93a88b1a67d4fd77b85a39f39d1d17b56bdee9b9a6b0",
+        "assembly_meshes": "b9a301c74ca2ec1fb5a5034e55dc9ed1f2043df5ba158e2e4a4ca9b1826c7b76",
+        "3mf": "cf80965af47cda4a07473af53886dbae75e90354eccf2efb1b95c8dad0f003cb"
+      },
+      "validation_reuse": "Unchanged baseline files SHA256-checked before reuse"
+    },
+    "06_Pan_Clamp_Collar": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\output\\stl\\06_Pan_Clamp_Collar.stl",
+      "vertex_count": 1601,
+      "face_count": 3206,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 3232.373 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 36.0 × 28.0 × 10.1 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "islands": 1,
+      "size_mm": [
+        36.0,
+        28.0,
+        10.100000381469727
+      ],
+      "print_rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "min_z_mm": 0.0,
+      "material_volume_mm3": 3232.372582957289,
+      "file_sha256": {
+        "stl": "72a7d15a5e6686f0b51e0ecf8d8b43c90aa7f9909a5e8d34ecdbaf09037da09e",
+        "assembly_meshes": "971f29c81810253348051747b7009f84a725da59cdfaf15beb01229d5f2ec7a0",
+        "3mf": "e62c5eb885eb9ed5289a3aaa5103fa6bc687d4f5af64eeeb948ebe4deb11ce83"
+      },
+      "validation_reuse": "Unchanged baseline files SHA256-checked before reuse"
+    },
+    "17_Pan_25T_Coupler": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\output\\stl\\17_Pan_25T_Coupler.stl",
+      "vertex_count": 1461,
+      "face_count": 2918,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 2712.211 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 20.0 × 20.0 × 10.9 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "islands": 1,
+      "size_mm": [
+        19.970178604125977,
+        19.979999542236328,
+        10.899999618530273
+      ],
+      "print_rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "min_z_mm": 0.0,
+      "material_volume_mm3": 2712.2112650110416,
+      "print_file_id": "17_Pan_25T_Coupler",
+      "file_sha256": {
+        "stl": "4469a7917f7396a5dca286049d74c5e3eb1b47c1ff42686a824c0dabcb93c627",
+        "assembly_meshes": "d19d0b9cf94e689f11ec36e077dd05d43d1e43aa65a70d5c96f78ff864250842",
+        "3mf": "ee9b0efb5f3ccfce301a07dc952cfc66450881e98e7d573f36fac06facb466c6"
+      }
+    },
+    "08_U_Frame": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\output\\stl\\08_U_Frame.stl",
+      "vertex_count": 4411,
+      "face_count": 8858,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 83970.034 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 140.0 × 66.0 × 92.8 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "islands": 1,
+      "size_mm": [
+        140.0,
+        66.0,
+        92.80000305175781
+      ],
+      "print_rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "min_z_mm": 0.0,
+      "material_volume_mm3": 83970.03431746521,
+      "file_sha256": {
+        "stl": "59d91a62ffeac6efffc3720c0e4ecaffb2d6e99dda11de3e49ea65b835229410",
+        "assembly_meshes": "36a09ee625b10d0fcd12da228370acb25e8fe27607242697a5c9e10102d40789",
+        "3mf": "f5b5e06b9a8a8d3111a04acf91187267f42c7b5ec3f0fa989137bab13f7a55ee"
+      },
+      "validation_reuse": "Unchanged baseline files SHA256-checked before reuse"
+    },
+    "15_Removable_Left_Support": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\output\\stl\\15_Removable_Left_Support.stl",
+      "vertex_count": 3672,
+      "face_count": 7376,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 29892.211 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 69.9 × 56.0 × 24.0 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "islands": 1,
+      "size_mm": [
+        69.9000015258789,
+        56.0,
+        24.0
+      ],
+      "print_rotation_deg": [
+        0,
+        -90,
+        0
+      ],
+      "min_z_mm": 0.0,
+      "material_volume_mm3": 29892.209754280197,
+      "print_file_id": "15_Removable_Left_Support",
+      "file_sha256": {
+        "stl": "c7f166f9ce75561e14951dd68ddf0306912194a3eb21a3b7c1bc37a39eece614",
+        "assembly_meshes": "ee0d0ee45bd6c1619887f5d24aba347908090ca46544346d530e1786f2d19d45",
+        "3mf": "184f86f44c8d364f82c9e4675c84f892e624725af91f9f8606f90080aa462952"
+      },
+      "validation_reuse": "Unchanged baseline files SHA256-checked before reuse"
+    },
+    "13_Left_Bearing_Cap": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\output\\stl\\13_Left_Bearing_Cap.stl",
+      "vertex_count": 968,
+      "face_count": 1952,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 2697.139 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 40.0 × 40.0 × 2.0 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "islands": 1,
+      "size_mm": [
+        40.0,
+        40.0,
+        2.0
+      ],
+      "print_rotation_deg": [
+        0,
+        90,
+        0
+      ],
+      "min_z_mm": 0.0,
+      "material_volume_mm3": 2697.138966663843,
+      "print_file_id": "13_Left_Bearing_Cap",
+      "validation_reuse": "Unchanged baseline files SHA256-checked before reuse",
+      "file_sha256": {
+        "stl": "6f009dca41ef22fc5db5fc4c0b75c2c7bc932a73e5d313741a133897443b1e88",
+        "assembly_meshes": "93c7e16c6ea191276e742717a406caae3987d9a7e0623f293a1d30b805e2dc8d",
+        "3mf": "d55f92d0b8bfc876ce628df6e2c3bec26a97a94f05232d3ea1922885eb9abfe3"
+      }
+    },
+    "14_Left_Inner_Spacer": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\output\\stl\\14_Left_Inner_Spacer.stl",
+      "vertex_count": 982,
+      "face_count": 1964,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 561.373 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 15.5 × 15.5 × 3.9 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "islands": 1,
+      "size_mm": [
+        15.5,
+        15.5,
+        3.9000000953674316
+      ],
+      "print_rotation_deg": [
+        0,
+        -90,
+        0
+      ],
+      "min_z_mm": 0.0,
+      "material_volume_mm3": 561.3731094459848,
+      "print_file_id": "14_Left_Inner_Spacer",
+      "file_sha256": {
+        "stl": "540efae0d1432dcb7aabef4cb8e54361b84bca6df36d6615736aadc8bc66c115",
+        "assembly_meshes": "20721b3c3d4c9a479beb62fd230948a52fbb8886bd3243b61a24025dbb8384a4",
+        "3mf": "11934f727278cbc5805143c7faeb3d0a44f0700c223df6c200d5b787b2cbe952"
+      },
+      "validation_reuse": "Unchanged baseline files SHA256-checked before reuse"
+    },
+    "09_HERO8_Cradle": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\output\\stl\\09_HERO8_Cradle.stl",
+      "vertex_count": 4743,
+      "face_count": 9494,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 34375.468 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 53.6 × 44.3 × 97.9 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "islands": 1,
+      "size_mm": [
+        53.599998474121094,
+        44.29999923706055,
+        97.9000015258789
+      ],
+      "print_rotation_deg": [
+        0,
+        90,
+        0
+      ],
+      "min_z_mm": 0.0,
+      "material_volume_mm3": 34375.468316043094,
+      "print_file_id": "09_HERO8_Cradle",
+      "file_sha256": {
+        "stl": "1a0fc5c438f8d8128c675f8ee5ec7441cde7c4b2a6c8871f0ea5cca4daa3456d",
+        "assembly_meshes": "0baefbf1c7aa3d623e675454cfa975419313be82d377c177e6e9aad6a297aa23",
+        "3mf": "30642bcf26e509c480d5bdc2d30d8a9d7af3ec25ea41969412d83c51030fcf02"
+      },
+      "validation_reuse": "Unchanged baseline files SHA256-checked before reuse"
+    },
+    "10_HERO8_Top_Clamp": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\output\\stl\\10_HERO8_Top_Clamp.stl",
+      "vertex_count": 852,
+      "face_count": 1708,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 5368.776 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 56.0 × 29.3 × 4.0 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "islands": 1,
+      "size_mm": [
+        56.0,
+        29.299999237060547,
+        4.0
+      ],
+      "print_rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "min_z_mm": 0.0,
+      "material_volume_mm3": 5368.775827087562,
+      "file_sha256": {
+        "stl": "52c771f2e9e92819aa62e610acdd0a8c613b414772f2fc1ca9d746215a2a9220",
+        "assembly_meshes": "eb0c9a6d242096fbd36a89a4c53f6e514bc71b0c10aad6d9ada0636d7cab9459",
+        "3mf": "7159c723592729674140f169b8e9e7fb3020a55d7ef683cae3e63241861448ac"
+      },
+      "validation_reuse": "Unchanged baseline files SHA256-checked before reuse"
+    },
+    "11_Tilt_25T_Hub": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\output\\stl\\11_Tilt_25T_Hub.stl",
+      "vertex_count": 3184,
+      "face_count": 6384,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 6443.437 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 38.0 × 38.0 × 12.2 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "islands": 1,
+      "size_mm": [
+        38.0,
+        38.0,
+        12.199999809265137
+      ],
+      "print_rotation_deg": [
+        0,
+        -90,
+        0
+      ],
+      "min_z_mm": 0.0,
+      "material_volume_mm3": 6443.4365828682985,
+      "file_sha256": {
+        "stl": "f1ab5321fd64fa3afaa87773e7a1932d9741cac2e27ddc388416522366e00b56",
+        "assembly_meshes": "9c1acf19e087cf3835126558ca55557b77963d23b854e313e86a71ba6864b316",
+        "3mf": "9ca3dcc4c412dcb349179127e0f87f247edb07a92193521729b7ac7e924bf38a"
+      },
+      "validation_reuse": "Unchanged baseline files SHA256-checked before reuse"
+    },
+    "12_Tilt_Clamp_Collar": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\output\\stl\\12_Tilt_Clamp_Collar.stl",
+      "vertex_count": 1366,
+      "face_count": 2736,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 3013.744 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 36.0 × 28.0 × 8.0 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "islands": 1,
+      "size_mm": [
+        36.0,
+        28.0,
+        8.0
+      ],
+      "print_rotation_deg": [
+        0,
+        -90,
+        0
+      ],
+      "min_z_mm": 0.0,
+      "material_volume_mm3": 3013.7442086570472,
+      "file_sha256": {
+        "stl": "5670b14c9101e81c14b335ce0f9a4a3d4f99847854eaddb4cbf91e8cecdb316d",
+        "assembly_meshes": "582b320bce734ce40842454ab021bbff6d643dd30338a203df71f42b09ddfe2c",
+        "3mf": "4c0e824bc3f47eccca0e08c1a55822555e2d8fab04dde8a570f73ab8ca04e967"
+      },
+      "validation_reuse": "Unchanged baseline files SHA256-checked before reuse"
+    },
+    "18A_Pan_Lower_Outer_Adapter": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\output\\stl\\18_6200RS_Outer_Ring_Adapter.stl",
+      "vertex_count": 384,
+      "face_count": 768,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 392.921 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 34.0 × 34.0 × 1.0 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "islands": 1,
+      "size_mm": [
+        34.0,
+        34.0,
+        1.0
+      ],
+      "print_rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "min_z_mm": 0.0,
+      "material_volume_mm3": 392.9210714133457,
+      "print_file_id": "18_6200RS_Outer_Ring_Adapter",
+      "file_sha256": {
+        "stl": "b0179f503cb76f6912f5abd5575d264d4f08bba7d0167113310c11f5b37cfa2f",
+        "assembly_meshes": "5e23dae1c565aab6a3fefc1350d444050125ebe139d25853c4ad8cd16d9932e5",
+        "3mf": "56393e2e7451cae0431ece094c74755894c10e2ea4753e001a12762cc156e76d"
+      },
+      "validation_reuse": "Unchanged baseline files SHA256-checked before reuse"
+    },
+    "18B_Pan_Upper_Outer_Adapter": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\output\\stl\\18_6200RS_Outer_Ring_Adapter.stl",
+      "vertex_count": 384,
+      "face_count": 768,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 392.921 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 34.0 × 34.0 × 1.0 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "islands": 1,
+      "size_mm": [
+        34.0,
+        34.0,
+        1.0
+      ],
+      "print_rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "min_z_mm": 0.0,
+      "material_volume_mm3": 392.92107141334566,
+      "print_file_id": "18_6200RS_Outer_Ring_Adapter",
+      "file_sha256": {
+        "stl": "b0179f503cb76f6912f5abd5575d264d4f08bba7d0167113310c11f5b37cfa2f",
+        "assembly_meshes": "be3559f5532a43514440b21867ceb1f785c8b4bcbfa22300f3a7db75177606aa",
+        "3mf": "56393e2e7451cae0431ece094c74755894c10e2ea4753e001a12762cc156e76d"
+      },
+      "validation_reuse": "Unchanged baseline files SHA256-checked before reuse"
+    },
+    "18C_Tilt_Outer_Adapter": {
+      "file": "C:\\Users\\HLi\\AppData\\Local\\Temp\\opencode\\mks-6200rs-20261124\\output\\stl\\18_6200RS_Outer_Ring_Adapter.stl",
+      "vertex_count": 384,
+      "face_count": 768,
+      "checks": {
+        "watertight": {
+          "pass": true,
+          "detail": "All edges shared by exactly 2 faces",
+          "fix": "Use trimesh repair or regenerate with manifold3d"
+        },
+        "winding_consistent": {
+          "pass": true,
+          "detail": "All face normals point outward",
+          "fix": "Run mesh.fix_normals() or mesh.fix_inversion()"
+        },
+        "positive_volume": {
+          "pass": true,
+          "detail": "Volume: 392.921 mm³",
+          "fix": "Invert all face normals"
+        },
+        "no_degenerate_faces": {
+          "pass": true,
+          "detail": "No degenerate faces",
+          "fix": "Remove zero-area triangles"
+        },
+        "no_duplicate_faces": {
+          "pass": true,
+          "detail": "No duplicate faces",
+          "fix": "Use trimesh.repair.fix_mesh()"
+        },
+        "reasonable_size": {
+          "pass": true,
+          "detail": "Bounding box: 34.0 × 34.0 × 1.0 mm",
+          "fix": "Check units — model may be in meters or inches instead of mm"
+        }
+      },
+      "passed": true,
+      "islands": 1,
+      "size_mm": [
+        34.0,
+        34.0,
+        1.0
+      ],
+      "print_rotation_deg": [
+        0,
+        -90,
+        0
+      ],
+      "min_z_mm": 0.0,
+      "material_volume_mm3": 392.921071413346,
+      "print_file_id": "18_6200RS_Outer_Ring_Adapter",
+      "file_sha256": {
+        "stl": "b0179f503cb76f6912f5abd5575d264d4f08bba7d0167113310c11f5b37cfa2f",
+        "assembly_meshes": "5264780dd7bb37e035d2581de61ed7e29c1939b4531580dd1334ab0bde6d8f41",
+        "3mf": "56393e2e7451cae0431ece094c74755894c10e2ea4753e001a12762cc156e76d"
+      },
+      "validation_reuse": "Unchanged baseline files SHA256-checked before reuse"
+    }
+  },
+  "inserts": [
+    {
+      "part": "01_Base",
+      "position": [
+        -37,
+        -35,
+        46
+      ],
+      "direction": "-Z",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "01_Base",
+      "position": [
+        -37,
+        35,
+        46
+      ],
+      "direction": "-Z",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "01_Base",
+      "position": [
+        37,
+        -35,
+        46
+      ],
+      "direction": "-Z",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "01_Base",
+      "position": [
+        37,
+        35,
+        46
+      ],
+      "direction": "-Z",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "01_Base",
+      "position": [
+        -38,
+        -22,
+        26.3
+      ],
+      "direction": "-Z",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "01_Base",
+      "position": [
+        -38,
+        22,
+        26.3
+      ],
+      "direction": "-Z",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "01_Base",
+      "position": [
+        -28,
+        -22,
+        26.3
+      ],
+      "direction": "-Z",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "01_Base",
+      "position": [
+        -28,
+        22,
+        26.3
+      ],
+      "direction": "-Z",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "02_Pan_Bearing_Carrier",
+      "position": [
+        -19,
+        -19,
+        56.0
+      ],
+      "direction": "+Z",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "02_Pan_Bearing_Carrier",
+      "position": [
+        -19,
+        19,
+        56.0
+      ],
+      "direction": "+Z",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "02_Pan_Bearing_Carrier",
+      "position": [
+        19,
+        -19,
+        56.0
+      ],
+      "direction": "+Z",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "02_Pan_Bearing_Carrier",
+      "position": [
+        19,
+        19,
+        56.0
+      ],
+      "direction": "+Z",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "02_Pan_Bearing_Carrier",
+      "position": [
+        27,
+        0,
+        79.0
+      ],
+      "direction": "-Z",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "02_Pan_Bearing_Carrier",
+      "position": [
+        -27,
+        0,
+        79.0
+      ],
+      "direction": "-Z",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "02_Pan_Bearing_Carrier",
+      "position": [
+        0,
+        27,
+        79.0
+      ],
+      "direction": "-Z",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "02_Pan_Bearing_Carrier",
+      "position": [
+        0,
+        -27,
+        79.0
+      ],
+      "direction": "-Z",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "05_Pan_25T_Hub",
+      "position": [
+        -23,
+        -17,
+        88.3
+      ],
+      "direction": "-Z",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "05_Pan_25T_Hub",
+      "position": [
+        -23,
+        17,
+        88.3
+      ],
+      "direction": "-Z",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "05_Pan_25T_Hub",
+      "position": [
+        23,
+        -17,
+        88.3
+      ],
+      "direction": "-Z",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "05_Pan_25T_Hub",
+      "position": [
+        23,
+        17,
+        88.3
+      ],
+      "direction": "-Z",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "06_Pan_Clamp_Collar",
+      "position": [
+        17,
+        -6.8,
+        49.75
+      ],
+      "direction": "+Y",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "08_U_Frame",
+      "position": [
+        -62,
+        -23,
+        96.3
+      ],
+      "direction": "-Z",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "08_U_Frame",
+      "position": [
+        -62,
+        23,
+        96.3
+      ],
+      "direction": "-Z",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "08_U_Frame",
+      "position": [
+        -46,
+        -23,
+        96.3
+      ],
+      "direction": "-Z",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "08_U_Frame",
+      "position": [
+        -46,
+        23,
+        96.3
+      ],
+      "direction": "-Z",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "15_Removable_Left_Support",
+      "position": [
+        -56.0,
+        -14,
+        126.0
+      ],
+      "direction": "+X",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "15_Removable_Left_Support",
+      "position": [
+        -56.0,
+        -14,
+        154.0
+      ],
+      "direction": "+X",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "15_Removable_Left_Support",
+      "position": [
+        -56.0,
+        14,
+        126.0
+      ],
+      "direction": "+X",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "15_Removable_Left_Support",
+      "position": [
+        -56.0,
+        14,
+        154.0
+      ],
+      "direction": "+X",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "09_HERO8_Cradle",
+      "position": [
+        -57.4,
+        0,
+        140.0
+      ],
+      "direction": "+X",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "09_HERO8_Cradle",
+      "position": [
+        40.5,
+        -9.899494936611665,
+        130.10050506338834
+      ],
+      "direction": "-X",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "09_HERO8_Cradle",
+      "position": [
+        40.5,
+        -9.899494936611665,
+        149.89949493661166
+      ],
+      "direction": "-X",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "09_HERO8_Cradle",
+      "position": [
+        40.5,
+        9.899494936611665,
+        130.10050506338834
+      ],
+      "direction": "-X",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "09_HERO8_Cradle",
+      "position": [
+        40.5,
+        9.899494936611665,
+        149.89949493661166
+      ],
+      "direction": "-X",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "09_HERO8_Cradle",
+      "position": [
+        -20,
+        20.8,
+        165.8
+      ],
+      "direction": "-Z",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "09_HERO8_Cradle",
+      "position": [
+        20,
+        20.8,
+        165.8
+      ],
+      "direction": "-Z",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    },
+    {
+      "part": "12_Tilt_Clamp_Collar",
+      "position": [
+        48.7,
+        -6.8,
+        157.0
+      ],
+      "direction": "+Y",
+      "thread": "M2.5",
+      "OD_mm": 4.6,
+      "length_mm": 5.7,
+      "pilot_D_mm": 4.0,
+      "pilot_depth_mm": 6.2
+    }
+  ],
+  "screws": [
+    {
+      "joint": "Pan mounting ear",
+      "bearing_surface": [
+        36.75,
+        -5.0,
+        37.3
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 3.0,
+      "washer_mm": 0.5,
+      "washer_OD_mm": 7.0,
+      "washer_ID_mm": 3.2,
+      "head_standard": "DIN 912",
+      "head_D_mm": 5.5,
+      "head_H_mm": 3.0,
+      "hex_key_mm": 2.5,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        28
+      ]
+    },
+    {
+      "joint": "Pan mounting ear",
+      "bearing_surface": [
+        36.75,
+        5.0,
+        37.3
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 3.0,
+      "washer_mm": 0.5,
+      "washer_OD_mm": 7.0,
+      "washer_ID_mm": 3.2,
+      "head_standard": "DIN 912",
+      "head_D_mm": 5.5,
+      "head_H_mm": 3.0,
+      "hex_key_mm": 2.5,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        28
+      ]
+    },
+    {
+      "joint": "Pan mounting ear",
+      "bearing_surface": [
+        -15.75,
+        -5,
+        37.3
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 3.0,
+      "washer_mm": 0.5,
+      "washer_OD_mm": 7.0,
+      "washer_ID_mm": 3.2,
+      "head_standard": "DIN 912",
+      "head_D_mm": 5.5,
+      "head_H_mm": 3.0,
+      "hex_key_mm": 2.5,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        28
+      ]
+    },
+    {
+      "joint": "Pan mounting ear",
+      "bearing_surface": [
+        -15.75,
+        5,
+        37.3
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 3.0,
+      "washer_mm": 0.5,
+      "washer_OD_mm": 7.0,
+      "washer_ID_mm": 3.2,
+      "head_standard": "DIN 912",
+      "head_D_mm": 5.5,
+      "head_H_mm": 3.0,
+      "hex_key_mm": 2.5,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        28
+      ]
+    },
+    {
+      "joint": "Front bridge to base",
+      "bearing_surface": [
+        -38,
+        -22,
+        31.8
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        -45,
+        0,
+        20
+      ]
+    },
+    {
+      "joint": "Front bridge to base",
+      "bearing_surface": [
+        -38,
+        22,
+        31.8
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        -45,
+        0,
+        20
+      ]
+    },
+    {
+      "joint": "Front bridge to base",
+      "bearing_surface": [
+        -28,
+        -22,
+        31.8
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        -45,
+        0,
+        20
+      ]
+    },
+    {
+      "joint": "Front bridge to base",
+      "bearing_surface": [
+        -28,
+        22,
+        31.8
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        -45,
+        0,
+        20
+      ]
+    },
+    {
+      "joint": "Carrier to base",
+      "bearing_surface": [
+        -37,
+        -35,
+        52.0
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        40
+      ]
+    },
+    {
+      "joint": "Carrier to base",
+      "bearing_surface": [
+        -37,
+        35,
+        52.0
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        40
+      ]
+    },
+    {
+      "joint": "Carrier to base",
+      "bearing_surface": [
+        37,
+        -35,
+        52.0
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        40
+      ]
+    },
+    {
+      "joint": "Carrier to base",
+      "bearing_surface": [
+        37,
+        35,
+        52.0
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        40
+      ]
+    },
+    {
+      "joint": "Lower bearing retainer",
+      "bearing_surface": [
+        -19,
+        -19,
+        52
+      ],
+      "direction": "+Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        28
+      ]
+    },
+    {
+      "joint": "Lower bearing retainer",
+      "bearing_surface": [
+        -19,
+        19,
+        52
+      ],
+      "direction": "+Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        28
+      ]
+    },
+    {
+      "joint": "Lower bearing retainer",
+      "bearing_surface": [
+        19,
+        -19,
+        52
+      ],
+      "direction": "+Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        28
+      ]
+    },
+    {
+      "joint": "Lower bearing retainer",
+      "bearing_surface": [
+        19,
+        19,
+        52
+      ],
+      "direction": "+Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        28
+      ]
+    },
+    {
+      "joint": "Upper bearing retainer",
+      "bearing_surface": [
+        27,
+        0,
+        79.5
+      ],
+      "direction": "-Z",
+      "length_mm": 8,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        60
+      ]
+    },
+    {
+      "joint": "Upper bearing retainer",
+      "bearing_surface": [
+        -27,
+        0,
+        79.5
+      ],
+      "direction": "-Z",
+      "length_mm": 8,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        60
+      ]
+    },
+    {
+      "joint": "Upper bearing retainer",
+      "bearing_surface": [
+        0,
+        27,
+        79.5
+      ],
+      "direction": "-Z",
+      "length_mm": 8,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        60
+      ]
+    },
+    {
+      "joint": "Upper bearing retainer",
+      "bearing_surface": [
+        0,
+        -27,
+        79.5
+      ],
+      "direction": "-Z",
+      "length_mm": 8,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        60
+      ]
+    },
+    {
+      "joint": "Pan hub OEM shaft retainer",
+      "bearing_surface": [
+        0,
+        0,
+        87
+      ],
+      "direction": "-Z",
+      "length_mm": 40,
+      "thread_mm": 3.0,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 3.2,
+      "head_standard": "ISO 7380-1",
+      "head_D_mm": 5.7,
+      "head_H_mm": 1.65,
+      "hex_key_mm": 2.0,
+      "group": "pan",
+      "explode_mm": [
+        0,
+        0,
+        68
+      ]
+    },
+    {
+      "joint": "Pan spline clamp",
+      "bearing_surface": [
+        17,
+        5.7,
+        49.75
+      ],
+      "direction": "-Y",
+      "length_mm": 12,
+      "thread_mm": 2.5,
+      "washer_mm": 0.5,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "pan",
+      "explode_mm": [
+        28,
+        0,
+        38
+      ]
+    },
+    {
+      "joint": "Tilt mounting ear",
+      "bearing_surface": [
+        64.85,
+        -5,
+        124.25
+      ],
+      "direction": "-X",
+      "length_mm": 10,
+      "thread_mm": 3.0,
+      "washer_mm": 0.5,
+      "washer_OD_mm": 7.0,
+      "washer_ID_mm": 3.2,
+      "head_standard": "DIN 912",
+      "head_D_mm": 5.5,
+      "head_H_mm": 3.0,
+      "hex_key_mm": 2.5,
+      "group": "pan",
+      "explode_mm": [
+        45,
+        0,
+        95
+      ]
+    },
+    {
+      "joint": "Tilt mounting ear",
+      "bearing_surface": [
+        64.85,
+        -5,
+        176.75
+      ],
+      "direction": "-X",
+      "length_mm": 10,
+      "thread_mm": 3.0,
+      "washer_mm": 0.5,
+      "washer_OD_mm": 7.0,
+      "washer_ID_mm": 3.2,
+      "head_standard": "DIN 912",
+      "head_D_mm": 5.5,
+      "head_H_mm": 3.0,
+      "hex_key_mm": 2.5,
+      "group": "pan",
+      "explode_mm": [
+        45,
+        0,
+        95
+      ]
+    },
+    {
+      "joint": "Tilt mounting ear",
+      "bearing_surface": [
+        64.85,
+        5,
+        124.25
+      ],
+      "direction": "-X",
+      "length_mm": 10,
+      "thread_mm": 3.0,
+      "washer_mm": 0.5,
+      "washer_OD_mm": 7.0,
+      "washer_ID_mm": 3.2,
+      "head_standard": "DIN 912",
+      "head_D_mm": 5.5,
+      "head_H_mm": 3.0,
+      "hex_key_mm": 2.5,
+      "group": "pan",
+      "explode_mm": [
+        45,
+        0,
+        95
+      ]
+    },
+    {
+      "joint": "Tilt mounting ear",
+      "bearing_surface": [
+        64.85,
+        5,
+        176.75
+      ],
+      "direction": "-X",
+      "length_mm": 10,
+      "thread_mm": 3.0,
+      "washer_mm": 0.5,
+      "washer_OD_mm": 7.0,
+      "washer_ID_mm": 3.2,
+      "head_standard": "DIN 912",
+      "head_D_mm": 5.5,
+      "head_H_mm": 3.0,
+      "hex_key_mm": 2.5,
+      "group": "pan",
+      "explode_mm": [
+        45,
+        0,
+        95
+      ]
+    },
+    {
+      "joint": "U-frame to Pan flange",
+      "bearing_surface": [
+        -23,
+        -17,
+        93.8
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "pan",
+      "explode_mm": [
+        0,
+        0,
+        90
+      ]
+    },
+    {
+      "joint": "U-frame to Pan flange",
+      "bearing_surface": [
+        -23,
+        17,
+        93.8
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "pan",
+      "explode_mm": [
+        0,
+        0,
+        90
+      ]
+    },
+    {
+      "joint": "U-frame to Pan flange",
+      "bearing_surface": [
+        23,
+        -17,
+        93.8
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "pan",
+      "explode_mm": [
+        0,
+        0,
+        90
+      ]
+    },
+    {
+      "joint": "U-frame to Pan flange",
+      "bearing_surface": [
+        23,
+        17,
+        93.8
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "pan",
+      "explode_mm": [
+        0,
+        0,
+        90
+      ]
+    },
+    {
+      "joint": "Left support to deck",
+      "bearing_surface": [
+        -62,
+        -23,
+        102.3
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "pan",
+      "explode_mm": [
+        -32,
+        0,
+        90
+      ]
+    },
+    {
+      "joint": "Left support to deck",
+      "bearing_surface": [
+        -62,
+        23,
+        102.3
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "pan",
+      "explode_mm": [
+        -32,
+        0,
+        90
+      ]
+    },
+    {
+      "joint": "Left support to deck",
+      "bearing_surface": [
+        -46,
+        -23,
+        102.3
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "pan",
+      "explode_mm": [
+        -32,
+        0,
+        90
+      ]
+    },
+    {
+      "joint": "Left support to deck",
+      "bearing_surface": [
+        -46,
+        23,
+        102.3
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "pan",
+      "explode_mm": [
+        -32,
+        0,
+        90
+      ]
+    },
+    {
+      "joint": "Left bearing retainer",
+      "bearing_surface": [
+        -59.0,
+        -14,
+        126.0
+      ],
+      "direction": "+X",
+      "length_mm": 8,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "pan",
+      "explode_mm": [
+        -32,
+        0,
+        90
+      ]
+    },
+    {
+      "joint": "Left bearing retainer",
+      "bearing_surface": [
+        -59.0,
+        -14,
+        154.0
+      ],
+      "direction": "+X",
+      "length_mm": 8,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "pan",
+      "explode_mm": [
+        -32,
+        0,
+        90
+      ]
+    },
+    {
+      "joint": "Left bearing retainer",
+      "bearing_surface": [
+        -59.0,
+        14,
+        126.0
+      ],
+      "direction": "+X",
+      "length_mm": 8,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "pan",
+      "explode_mm": [
+        -32,
+        0,
+        90
+      ]
+    },
+    {
+      "joint": "Left bearing retainer",
+      "bearing_surface": [
+        -59.0,
+        14,
+        154.0
+      ],
+      "direction": "+X",
+      "length_mm": 8,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "pan",
+      "explode_mm": [
+        -32,
+        0,
+        90
+      ]
+    },
+    {
+      "joint": "Left journal inner-race clamp",
+      "bearing_surface": [
+        -60.4,
+        0,
+        140.0
+      ],
+      "direction": "+X",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0.5,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "tilt",
+      "explode_mm": [
+        -24,
+        0,
+        120
+      ]
+    },
+    {
+      "joint": "HERO8 removable top clamp",
+      "bearing_surface": [
+        -20,
+        20.8,
+        167.3
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "tilt",
+      "explode_mm": [
+        0,
+        0,
+        235
+      ]
+    },
+    {
+      "joint": "HERO8 removable top clamp",
+      "bearing_surface": [
+        20,
+        20.8,
+        167.3
+      ],
+      "direction": "-Z",
+      "length_mm": 10,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "tilt",
+      "explode_mm": [
+        0,
+        0,
+        235
+      ]
+    },
+    {
+      "joint": "Tilt flange to cradle",
+      "bearing_surface": [
+        42.0,
+        -9.899494936611665,
+        130.10050506338834
+      ],
+      "direction": "-X",
+      "length_mm": 6,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "tilt",
+      "explode_mm": [
+        28,
+        0,
+        145
+      ]
+    },
+    {
+      "joint": "Tilt flange to cradle",
+      "bearing_surface": [
+        42.0,
+        -9.899494936611665,
+        149.89949493661166
+      ],
+      "direction": "-X",
+      "length_mm": 6,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "tilt",
+      "explode_mm": [
+        28,
+        0,
+        145
+      ]
+    },
+    {
+      "joint": "Tilt flange to cradle",
+      "bearing_surface": [
+        42.0,
+        9.899494936611665,
+        130.10050506338834
+      ],
+      "direction": "-X",
+      "length_mm": 6,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "tilt",
+      "explode_mm": [
+        28,
+        0,
+        145
+      ]
+    },
+    {
+      "joint": "Tilt flange to cradle",
+      "bearing_surface": [
+        42.0,
+        9.899494936611665,
+        149.89949493661166
+      ],
+      "direction": "-X",
+      "length_mm": 6,
+      "thread_mm": 2.5,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "tilt",
+      "explode_mm": [
+        28,
+        0,
+        145
+      ]
+    },
+    {
+      "joint": "Tilt hub OEM shaft retainer",
+      "bearing_surface": [
+        43.5,
+        0,
+        140.0
+      ],
+      "direction": "+X",
+      "length_mm": 8,
+      "thread_mm": 3.0,
+      "washer_mm": 0,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 3.2,
+      "head_standard": "ISO 7380-1",
+      "head_D_mm": 5.7,
+      "head_H_mm": 1.65,
+      "hex_key_mm": 2.0,
+      "group": "tilt",
+      "explode_mm": [
+        28,
+        0,
+        145
+      ]
+    },
+    {
+      "joint": "Tilt spline clamp",
+      "bearing_surface": [
+        48.7,
+        5.7,
+        157.0
+      ],
+      "direction": "-Y",
+      "length_mm": 12,
+      "thread_mm": 2.5,
+      "washer_mm": 0.5,
+      "washer_OD_mm": 6.0,
+      "washer_ID_mm": 2.7,
+      "head_standard": "DIN 912",
+      "head_D_mm": 4.5,
+      "head_H_mm": 2.5,
+      "hex_key_mm": 2.0,
+      "group": "tilt",
+      "explode_mm": [
+        42,
+        0,
+        145
+      ]
+    }
+  ],
+  "hardware": [
+    {
+      "name": "6200RS_Pan_lower",
+      "kind": "bearing",
+      "id": 10.0,
+      "od": 30.0,
+      "length": 9.0,
+      "axis": "Z",
+      "position": [
+        0,
+        0,
+        57.0
+      ],
+      "product": "6200RS (user stock; brand and seal count not supplied)",
+      "inner_shoulder_D_mm": 15.07,
+      "outer_recess_D_mm": 24.72,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        45
+      ]
+    },
+    {
+      "name": "6200RS_Pan_upper",
+      "kind": "bearing",
+      "id": 10.0,
+      "od": 30.0,
+      "length": 9.0,
+      "axis": "Z",
+      "position": [
+        0,
+        0,
+        69.0
+      ],
+      "product": "6200RS (user stock; brand and seal count not supplied)",
+      "inner_shoulder_D_mm": 15.07,
+      "outer_recess_D_mm": 24.72,
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        55
+      ]
+    },
+    {
+      "name": "6200RS_Tilt_left",
+      "kind": "bearing",
+      "id": 10.0,
+      "od": 30.0,
+      "length": 9.0,
+      "axis": "X",
+      "position": [
+        -56.0,
+        0,
+        140.0
+      ],
+      "product": "6200RS (user stock; brand and seal count not supplied)",
+      "inner_shoulder_D_mm": 15.07,
+      "outer_recess_D_mm": 24.72,
+      "group": "pan",
+      "explode_mm": [
+        -24,
+        0,
+        90
+      ]
+    }
+  ],
+  "nuts": [
+    {
+      "part": "01_Base",
+      "position": [
+        36.75,
+        -5.0,
+        31.4
+      ],
+      "direction": "-Z",
+      "thread": "M3",
+      "across_flats_mm": 5.5,
+      "length_mm": 2.4,
+      "standard": "DIN 934",
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        28
+      ]
+    },
+    {
+      "part": "01_Base",
+      "position": [
+        36.75,
+        5.0,
+        31.4
+      ],
+      "direction": "-Z",
+      "thread": "M3",
+      "across_flats_mm": 5.5,
+      "length_mm": 2.4,
+      "standard": "DIN 934",
+      "group": "fixed",
+      "explode_mm": [
+        0,
+        0,
+        28
+      ]
+    },
+    {
+      "part": "16_Pan_Front_Mount_Bridge",
+      "position": [
+        -15.75,
+        -5,
+        31.4
+      ],
+      "direction": "-Z",
+      "thread": "M3",
+      "across_flats_mm": 5.5,
+      "length_mm": 2.4,
+      "standard": "DIN 934",
+      "group": "fixed",
+      "explode_mm": [
+        -45,
+        0,
+        20
+      ]
+    },
+    {
+      "part": "16_Pan_Front_Mount_Bridge",
+      "position": [
+        -15.75,
+        5,
+        31.4
+      ],
+      "direction": "-Z",
+      "thread": "M3",
+      "across_flats_mm": 5.5,
+      "length_mm": 2.4,
+      "standard": "DIN 934",
+      "group": "fixed",
+      "explode_mm": [
+        -45,
+        0,
+        20
+      ]
+    },
+    {
+      "part": "08_U_Frame",
+      "position": [
+        58.55,
+        -5,
+        124.25
+      ],
+      "direction": "-X",
+      "thread": "M3",
+      "across_flats_mm": 5.5,
+      "length_mm": 2.4,
+      "standard": "DIN 934",
+      "group": "pan",
+      "explode_mm": [
+        0,
+        0,
+        90
+      ]
+    },
+    {
+      "part": "08_U_Frame",
+      "position": [
+        58.55,
+        -5,
+        176.75
+      ],
+      "direction": "-X",
+      "thread": "M3",
+      "across_flats_mm": 5.5,
+      "length_mm": 2.4,
+      "standard": "DIN 934",
+      "group": "pan",
+      "explode_mm": [
+        0,
+        0,
+        90
+      ]
+    },
+    {
+      "part": "08_U_Frame",
+      "position": [
+        58.55,
+        5,
+        124.25
+      ],
+      "direction": "-X",
+      "thread": "M3",
+      "across_flats_mm": 5.5,
+      "length_mm": 2.4,
+      "standard": "DIN 934",
+      "group": "pan",
+      "explode_mm": [
+        0,
+        0,
+        90
+      ]
+    },
+    {
+      "part": "08_U_Frame",
+      "position": [
+        58.55,
+        5,
+        176.75
+      ],
+      "direction": "-X",
+      "thread": "M3",
+      "across_flats_mm": 5.5,
+      "length_mm": 2.4,
+      "standard": "DIN 934",
+      "group": "pan",
+      "explode_mm": [
+        0,
+        0,
+        90
+      ]
+    }
+  ],
+  "fits": {
+    "spline_normal_clearance_mm": 0.06,
+    "nominal_axial_spline_overlap_mm": 5.7,
+    "full_tooth_engagement_bound_mm": 5.4,
+    "spline_lead_mm": 0.25,
+    "insert_pilot_D_mm": 4.0,
+    "servo_boss_to_rotating_hub_clearance_mm": 0.3,
+    "6200RS_seat_D_mm": 30.1,
+    "6200RS_journal_D_mm": 9.98
+  },
+  "bearing_design": {
+    "product": "6200RS (user stock; brand and seal count not supplied)",
+    "nominal_size_mm": [
+      10.0,
+      30.0,
+      9.0
+    ],
+    "quantity": 3,
+    "allocation": {
+      "Pan": 2,
+      "Tilt": 1
+    },
+    "seat_D_mm": 30.1,
+    "journal_D_mm": 9.98,
+    "fit_type": "Nominal clearance; +0.10 mm seat and -0.02 mm journal are untested FDM starting values, not guaranteed fits",
+    "inner_contact_OD_mm": 14.4,
+    "outer_retainer_ID_mm": 25.6,
+    "Pan_bearing_start_Z_mm": [
+      57.0,
+      69.0
+    ],
+    "Pan_bearing_centre_span_mm": 12.0,
+    "Pan_inner_spacer_length_mm": 3.0,
+    "Pan_inner_stack_mm": 21.0,
+    "Pan_upper_inner_shoulder_Z_mm": 78.0,
+    "Pan_lower_inner_stop_Z_mm": 56.85,
+    "Pan_key_male_AF_mm": 8.0,
+    "Pan_key_female_AF_mm": 8.12,
+    "Pan_key_engagement_mm": 4.450000000000003,
+    "outer_adapter_print_file": "18_6200RS_Outer_Ring_Adapter",
+    "outer_adapter_quantity": 3,
+    "outer_adapter_size_mm": [
+      34.0,
+      25.6,
+      1.0
+    ],
+    "Tilt_bearing_faces_X_mm": [
+      -56.0,
+      -47.0
+    ],
+    "Tilt_support_thickness_mm": 12.0,
+    "Tilt_journal_end_X_mm": -57.4,
+    "Tilt_retainer_to_journal_end_reserve_mm": 0.45,
+    "single_bearing_decision": "Tilt has one external bearing and an opposite servo-supported end. Pan retains two separated bearings; no single-external-bearing Pan load rating is claimed.",
+    "reprint_policy": "Keep physical files 01,03,04,06,08,10,11,12,13,16. Reprint original 02,05,07,09,14,15; add 17 and three copies of one shared 18 file. Part 13 is reposed only."
+  },
+  "print_file_inventory": {
+    "01_Base": {
+      "quantity": 1,
+      "assembly_instances": [
+        "01_Base"
+      ]
+    },
+    "02_Pan_Bearing_Carrier": {
+      "quantity": 1,
+      "assembly_instances": [
+        "02_Pan_Bearing_Carrier"
+      ]
+    },
+    "03_Pan_Lower_Cap": {
+      "quantity": 1,
+      "assembly_instances": [
+        "03_Pan_Lower_Cap"
+      ]
+    },
+    "04_Pan_Upper_Cap": {
+      "quantity": 1,
+      "assembly_instances": [
+        "04_Pan_Upper_Cap"
+      ]
+    },
+    "05_Pan_25T_Hub": {
+      "quantity": 1,
+      "assembly_instances": [
+        "05_Pan_25T_Hub"
+      ]
+    },
+    "06_Pan_Clamp_Collar": {
+      "quantity": 1,
+      "assembly_instances": [
+        "06_Pan_Clamp_Collar"
+      ]
+    },
+    "07_Pan_Inner_Spacer": {
+      "quantity": 1,
+      "assembly_instances": [
+        "07_Pan_Inner_Spacer"
+      ]
+    },
+    "08_U_Frame": {
+      "quantity": 1,
+      "assembly_instances": [
+        "08_U_Frame"
+      ]
+    },
+    "09_HERO8_Cradle": {
+      "quantity": 1,
+      "assembly_instances": [
+        "09_HERO8_Cradle"
+      ]
+    },
+    "10_HERO8_Top_Clamp": {
+      "quantity": 1,
+      "assembly_instances": [
+        "10_HERO8_Top_Clamp"
+      ]
+    },
+    "11_Tilt_25T_Hub": {
+      "quantity": 1,
+      "assembly_instances": [
+        "11_Tilt_25T_Hub"
+      ]
+    },
+    "12_Tilt_Clamp_Collar": {
+      "quantity": 1,
+      "assembly_instances": [
+        "12_Tilt_Clamp_Collar"
+      ]
+    },
+    "13_Left_Bearing_Cap": {
+      "quantity": 1,
+      "assembly_instances": [
+        "13_Left_Bearing_Cap"
+      ]
+    },
+    "14_Left_Inner_Spacer": {
+      "quantity": 1,
+      "assembly_instances": [
+        "14_Left_Inner_Spacer"
+      ]
+    },
+    "15_Removable_Left_Support": {
+      "quantity": 1,
+      "assembly_instances": [
+        "15_Removable_Left_Support"
+      ]
+    },
+    "16_Pan_Front_Mount_Bridge": {
+      "quantity": 1,
+      "assembly_instances": [
+        "16_Pan_Front_Mount_Bridge"
+      ]
+    },
+    "17_Pan_25T_Coupler": {
+      "quantity": 1,
+      "assembly_instances": [
+        "17_Pan_25T_Coupler"
+      ]
+    },
+    "18_6200RS_Outer_Ring_Adapter": {
+      "quantity": 3,
+      "assembly_instances": [
+        "18A_Pan_Lower_Outer_Adapter",
+        "18B_Pan_Upper_Outer_Adapter",
+        "18C_Tilt_Outer_Adapter"
+      ]
+    }
+  },
+  "hardware_evidence_sha256": "1d65066950783c29a71aebba1ec0560f6966bff2d57051ac15a48aaf1364c2b4",
+  "reference_mesh_analysis": {
+    "MKS_Pan": {
+      "status": "OK",
+      "components": 12
+    },
+    "MKS_Tilt": {
+      "status": "OK",
+      "components": 12
+    }
+  },
+  "lightweight_changes": {
+    "01_Base": {
+      "before_volume_mm3": 359114.39045039064,
+      "after_volume_mm3": 270097.30827769736,
+      "removed_volume_mm3": 89017.08217269328,
+      "reduction_percent": 24.787946275572715,
+      "protected_region_loss_mm3": 0.0,
+      "added_material_mm3": 3.730349362740526e-14,
+      "scope": "Subtractive relief outside retained load/interface regions; no strength certification"
+    },
+    "02_Pan_Bearing_Carrier": {
+      "before_volume_mm3": 192067.22495112172,
+      "after_volume_mm3": 122414.78272382043,
+      "removed_volume_mm3": 69652.44222730129,
+      "reduction_percent": 36.264616331613475,
+      "protected_region_loss_mm3": 0.0,
+      "added_material_mm3": 0.0,
+      "scope": "Subtractive relief outside retained load/interface regions; no strength certification"
+    }
+  },
+  "assembly_audit": {
+    "static_failures": [],
+    "nonzero_intersections_mm3": [],
+    "tilt_sweep": {
+      "range_deg": [
+        -90,
+        90
+      ],
+      "step_deg": 5,
+      "failures": []
+    },
+    "pan_sweep": {
+      "range_deg": [
+        -90,
+        90
+      ],
+      "step_deg": 5,
+      "failures": []
+    },
+    "kinematics": "Servo cases fixed to their mounts; output splines rotate together with driven hubs",
+    "continuous_floor_clearance_bound_mm": 4.6086952209472685,
+    "max_tilt_radius_mm": 39.091304779052734
+  },
+  "physical_validation": "Not printed/tested; no full-stall-torque rating"
+}

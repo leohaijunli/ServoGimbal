@@ -1,5 +1,24 @@
 # MKS HBL388 / GoPro HERO8 双轴云台
 
+## 当前版本：6200RS 少重打版（2026-11-24）
+
+新版本独立保存在 **[`mks_gimbal_6200rs/`](mks_gimbal_6200rs/README.md)**，旧 `mks_gimbal/` LW1版原样保留。
+
+- 所有现用轴承统一为 **6200RS，10 × 30 × 9 mm**；Pan两颗、Tilt一颗，共三颗。
+- **只重打原件02、05、07、09、14、15，另加17×1和18×3。** 18的三片共用一个文件；其余10种原有STL/3MF字节不变，13仅在装配中外移5 mm。
+- **已有LW1打印件只用 [8种STL重打包](mks_gimbal_6200rs/reprint_only/stl/) 或 [3MF重打包](mks_gimbal_6200rs/reprint_only/3mf/)**；不要整套重打，也不能漏装18适配环。
+- [少重打清单和逐件原因](mks_gimbal_6200rs/REPRINT_GUIDE.md) / [新版试配流程](mks_gimbal_6200rs/STL_PRINT_VALIDATION.md) / [完整装配说明](mks_gimbal_6200rs/README.md)。
+- [新版Blender总装](mks_gimbal_6200rs/mks_gimbal.blend) / [爆炸图](mks_gimbal_6200rs/mks_gimbal_exploded.blend) / [离线查看器](mks_gimbal_6200rs/viewer.html) / [当前模型运动副本](mks_gimbal_6200rs/animation/MKS_PanTilt_motion.blend)。查看器需下载后本地打开，GitHub文件页不运行HTML。
+- [实际文件对比](mks_gimbal_6200rs/reprint_report.json) / [数字装配检查](mks_gimbal_6200rs/assembly_checks.json) / [生成与验证代码](mks_gimbal_6200rs/source/README.md)。
+
+![6200RS版总装](mks_gimbal_6200rs/renders/assembly_iso.png)
+
+**仍为CAD / FDM试配原型，未实物试载或测回差。** Pan轴承中心间距由16改为12 mm，并新增可拆8AF键；不能据数字无干涉宣称刚度不变或零回差。轴承品牌/密封接触、键夹紧、打印配合须实物核对，不做堵转试验。
+
+## 历史基线：LW1（2026-11-16）
+
+以下保留原LW1版本的入口与验证说明。只有6200RS轴承时，请使用上方新版本，不混用旧轴承座、轴颈或内圈限位件。
+
 本仓库保存 MKS-X8-HBL388 舵机、GoPro HERO8 双轴云台的 **CAD / FDM 试配原型**。不是已完成实物承载或精度验收的成品。
 
 ![云台总装](mks_gimbal/renders/assembly_iso.png)
